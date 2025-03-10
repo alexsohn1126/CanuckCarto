@@ -1,7 +1,7 @@
 import { MapContainer, Marker, Popup, TileLayer } from "react-leaflet";
 import L from "leaflet";
-import locationData from "../shops.json";
-import originData from "../shopsList.json";
+import locationData from "../data/simplified_locations.json";
+import originData from "../";
 
 type BusinessNames = keyof typeof originData;
 
