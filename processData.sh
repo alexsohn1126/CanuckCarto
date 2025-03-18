@@ -1,54 +1,48 @@
-INPUT_FILE="ottawa_data.json"
+INPUT_FILE="./data/final_results.json"
+OUTPUT_FILE="./data/simplified_locations.json"
+BRAND_FILE="./data/brand_locations.json"
+COORDINATES_FILE="./data/coordinates.json"
 
-OUTPUT_FILE="classified_shops.json"
-
-echo "Processing data..."
+echo "Processing shops data..."
 jq '
-  .elements |
-  map(select(.tags? and .tags.name?)) |
-  reduce .[] as $item ({}; 
-    . + { ($item.tags.name): "local" }
-  )
-' "$INPUT_FILE" > "$OUTPUT_FILE"
-
-if [ $? -eq 0 ]; then
-  echo "Classified data saved to $OUTPUT_FILE"
-  echo "Total shops processed: $(jq 'length' "$OUTPUT_FILE")"
-else
-  echo "Failed to process data"
-  exit 2
-fi
-
-OUTPUT_FILE="simplified_locations.json"
-
-echo "Processing data..."
-jq -c '
-  .elements[]
-  | select(.type == "node" or .type == "way")
+  [.elements[]
+  | select(.type | ("node", "way") == .)
   | {
       id: (.id | tostring),
       type,
-      lat: (
-        if .type == "node" then .lat
-        elif .center? then .center.lat
-        else null end
-      ),
-      lon: (
-        if .type == "node" then .lon
-        elif .center? then .center.lon
-        else null end
-      ),
-      tags: (.tags // {}),
-      origin: "local"
+      lat: (.lat // .center?.lat),
+      lon: (.lon // .center?.lon),
+      tags: (.tags // {})
     }
   | select(.lat and .lon)
   | del(.nodes)
-' "$INPUT_FILE" | jq -s . > "$OUTPUT_FILE"
+  ] | unique_by([.type, .id])' "$INPUT_FILE" > "$OUTPUT_FILE"
+
+echo "Generating location groups..."
+jq -c '
+  group_by([.lat, .lon])
+  | map({
+      key: "\(.[0].lat)\(.[0].lon)",
+      value: map(del(.lat, .lon, .type, .id))
+    })
+  | from_entries' "$OUTPUT_FILE" > "$BRAND_FILE"
 
 if [ $? -eq 0 ]; then
   echo "Simplified data saved to $OUTPUT_FILE"
-  echo "Total locations processed: $(jq 'length' "$OUTPUT_FILE")"
+  echo "Location groups saved to $BRAND_FILE"
+  echo "Total locations: $(jq 'length' "$BRAND_FILE")"
 else
-  echo "Failed to process data"
-  exit 2
+  echo "Failed to generate location groups"
+  exit 3
+fi
+
+echo "Generating coordinates-only list..."
+jq -c '[.[] | [.lat, .lon]] | unique' "$OUTPUT_FILE" > "$COORDINATES_FILE"
+
+if [ $? -eq 0 ]; then
+  echo "Coordinates saved to $COORDINATES_FILE"
+  echo "Total coordinates: $(jq 'length' "$COORDINATES_FILE")"
+else
+  echo "Failed to generate coordinates list"
+  exit 3
 fi

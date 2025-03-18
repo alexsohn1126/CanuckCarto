@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.description p a {
+    text-decoration: underline;
+}

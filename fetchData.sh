@@ -1,33 +1,51 @@
-OVERPASS_URL="https://overpass-api.de/api/interpreter"
-RAW_OUTPUT="ottawa_data.json"
-CLASSIFIED_OUTPUT="classified_shops.json"
+#!/bin/bash
 
-# Original Overpass QL query
-read -r -d '' QUERY << 'EOF'
-[out:json];
-area[name="Canada"]->.canada;
-area[name="Ottawa"]->.ottawa;
-(
-  nw[amenity=restaurant](area.canada)(area.ottawa);
-  nw[amenity=fast_food](area.canada)(area.ottawa);
-  nw[amenity=cafe](area.canada)(area.ottawa);
-  nw[brand](area.canada)(area.ottawa);
-  nw[shop](area.canada)(area.ottawa);
-);
-out center;
-EOF
+DATA_DIR="./data"
+CHUNKS_DIR="${DATA_DIR}/chunks"
+QUERIES_DIR="${DATA_DIR}/queries"
+INPUT_JSON="${DATA_DIR}/american_shops.json"
+BRANDS_TXT="${DATA_DIR}/brands.txt"
+FINAL_RESULTS="${DATA_DIR}/final_results.json"
 
-# Fetch and save raw data
-echo "Fetching data from Overpass API..."
-curl --silent --show-error --fail \
-  --request POST \
-  --header "Content-Type: text/plain" \
-  --data "$QUERY" \
-  "$OVERPASS_URL" | jq . > "$RAW_OUTPUT"
 
-if [ $? -eq 0 ]; then
-  echo "Raw data saved to $RAW_OUTPUT"
-else
-  echo "Failed to fetch data"
-  exit 1
-fi
+# Define brands requiring EXACT matches (case-sensitive)
+STRICT_BRANDS="Mobil,Shell,Esso,Rona"  # <-- Add your blacklisted brands here
+
+# Split brands
+mkdir -p "$CHUNKS_DIR" "$QUERIES_DIR"
+rm -f "${CHUNKS_DIR}"/* "${QUERIES_DIR}"/*
+jq -r '.shopToCompany | keys_unsorted[]' "$INPUT_JSON" > "$BRANDS_TXT"
+split -l 5 -d "$BRANDS_TXT" "${CHUNKS_DIR}/brands_chunk_"
+
+# Generate queries with strict/exact matches for blacklisted brands
+for chunk in "${CHUNKS_DIR}"/brands_chunk_*; do
+    chunk_number=$(basename "$chunk" | awk -F_ '{print $NF}')
+    query_file="${QUERIES_DIR}/query_${chunk_number}.overpassql"
+    awk -v strict_list="$STRICT_BRANDS" '
+        BEGIN {
+            split(strict_list, strict_arr, ",")  # Convert strict list to array
+            for (i in strict_arr) strict[strict_arr[i]] = 1  # Create hashmap for quick lookup
+            print "[out:json][timeout:900];\narea[\"ISO3166-1\"=\"CA\"]->.canada;\n("
+        }
+        {
+            brand = $0
+            if (brand in strict) {
+                # Exact match for blacklisted brands
+                printf "  nw[~\"^(brand|name)$\"~\"^%s$\"](area.canada);\n", brand
+            } else {
+                # Fuzzy regex match for others
+                printf "  nw[~\"^(brand|name)$\"~\"%s\",i](area.canada);\n", brand
+            }
+        }
+        END {print ");\nout center;"}' "$chunk" > "$query_file"
+done
+
+# Run concurrent queries (with 2s delay between batches)
+export API_ENDPOINT='https://overpass-api.de/api/interpreter'
+find "$QUERIES_DIR" -name "query_*.overpassql" | parallel -j5 --delay 2 "
+    echo 'Processing {}...' &&
+    curl -s -X POST -d @{} ${API_ENDPOINT} > '{.}.json'
+"
+
+# Combine results
+jq -n '{elements: [inputs.elements] | add}' "${QUERIES_DIR}"/query_*.json > "$FINAL_RESULTS"

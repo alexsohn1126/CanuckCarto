@@ -9,11 +9,13 @@
     pkgs.git
     pkgs.jq
     pkgs.curl
+    pkgs.parallel
   ];
 
   # https://devenv.sh/scripts/
   scripts.fetchData.exec = builtins.readFile ./fetchData.sh;
   scripts.processData.exec = builtins.readFile ./processData.sh;
+  scripts.retryQuery.exec = builtins.readFile ./retryQuery.sh;
   scripts.updateData.exec = ''
     fetchData
     processData

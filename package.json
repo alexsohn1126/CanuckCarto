@@ -4,16 +4,22 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
+    "client": "vite",
+    "server": "tsx --watch backend/server.ts",
     "preview": "vite preview"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.12",
+    "@types/express": "^5.0.0",
+    "concurrently": "^9.1.2",
+    "express": "^4.21.2",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-leaflet": "^5.0.0-rc.2",
+    "react-leaflet-markercluster": "^5.0.0-rc.0",
     "tailwindcss": "^4.0.12",
     "typescript": "~5.7.2"
   },
