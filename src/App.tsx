@@ -71,50 +71,72 @@ function App() {
 
   const attribution = `
   &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors
-  | Data by <a href="https://overpass-api.de/"> Overpass API </a>`;
+  | Data from <a href="https://overpass-api.de/"> Overpass API </a>`;
 
   return (
-    <div className="flex">
-      <div className="flex flex-col max-w-[15svw] min-w-[15svw] bg-[#fefefe] drop-shadow-lg z-500">
-        <Description currShop={currShop} />
-        <div className="flex flex-col mt-auto mb-2 gap-1">
-          <a href="https://ko-fi.com/X8X31BROYE" target="_blank">
-            <img
-              className="border-0 h-9 mx-auto"
-              src="https://storage.ko-fi.com/cdn/kofi1.png?v=6"
-              alt="Buy Me a Coffee at ko-fi.com"
+    <>
+      <div className="flex">
+        <div className="flex flex-col max-w-[15svw] min-w-[15svw] bg-[#fefefe] drop-shadow-lg z-500">
+          <Description currShop={currShop} />
+          <div className="flex mt-auto mb-2 gap-1 mx-auto">
+            <a
+              href="https://www.linkedin.com/in/moohaeng-sohn/"
+              target="_blank"
+            >
+              <img
+                className="h-8 w-8"
+                src="linkedin-mark.svg"
+                alt="Check out my LinkedIn Profile"
+              />
+            </a>
+            <a
+              href="https://github.com/alexsohn1126/CanuckCarto"
+              target="_blank"
+            >
+              <img
+                className="h-8 w-8"
+                src="github-mark.svg"
+                alt="Check out the github repository for this website"
+              />
+            </a>
+            <a href="https://ko-fi.com/X8X31BROYE" target="_blank">
+              <img
+                className="h-8 w-8"
+                src="kofi-mark.svg"
+                alt="Buy Me a Coffee at ko-fi.com"
+              />
+            </a>
+          </div>
+        </div>
+        <div className="w-full">
+          <MapContainer
+            center={[64.2, -96.1]}
+            zoom={4}
+            scrollWheelZoom={true}
+            className="h-svh"
+          >
+            <TileLayer
+              maxNativeZoom={19}
+              maxZoom={20}
+              attribution={attribution}
+              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             />
-          </a>
+            <MarkerClusterGroup disableClusteringAtZoom={17}>
+              {locations.map(([lat, lng]) => {
+                return (
+                  <ShopMarker
+                    key={`${lat}${lng}`}
+                    lat={lat}
+                    lng={lng}
+                    onClick={handleMarkerClick}
+                  />
+                );
+              })}
+            </MarkerClusterGroup>
+          </MapContainer>
         </div>
       </div>
-      <div className="w-full">
-        <MapContainer
-          center={[64.2, -96.1]}
-          zoom={4}
-          scrollWheelZoom={true}
-          className="h-svh"
-        >
-          <TileLayer
-            maxNativeZoom={19}
-            maxZoom={20}
-            attribution={attribution}
-            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-          />
-          <MarkerClusterGroup disableClusteringAtZoom={17}>
-            {locations.map(([lat, lng]) => {
-              return (
-                <ShopMarker
-                  key={`${lat}${lng}`}
-                  lat={lat}
-                  lng={lng}
-                  onClick={handleMarkerClick}
-                />
-              );
-            })}
-          </MarkerClusterGroup>
-        </MapContainer>
-      </div>
-    </div>
+    </>
   );
 }
 

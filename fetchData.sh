@@ -9,7 +9,7 @@ FINAL_RESULTS="${DATA_DIR}/final_results.json"
 
 
 # Define brands requiring EXACT matches (case-sensitive)
-STRICT_BRANDS="Mobil,Shell,Esso,Rona,Gap,Starbucks"  # <-- Add your blacklisted brands here
+STRICT_BRANDS="Mobil,Shell,Esso,Rona,Gap,Starbucks,Marshalls"  # <-- Add your blacklisted brands here
 
 # Split brands
 mkdir -p "$CHUNKS_DIR" "$QUERIES_DIR"

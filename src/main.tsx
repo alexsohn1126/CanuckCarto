@@ -4,9 +4,12 @@ import "./index.css";
 import "leaflet/dist/leaflet.css";
 import "react-leaflet-markercluster/styles";
 import App from "./App.tsx";
+import ModalProvider from "./modals/ModalContext.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <App />
+    <ModalProvider>
+      <App />
+    </ModalProvider>
   </StrictMode>
 );
