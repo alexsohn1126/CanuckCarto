@@ -7,7 +7,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "client": "vite",
+    "client": "vite --host",
     "server": "tsx --watch backend/server.ts",
     "preview": "vite preview"
   },

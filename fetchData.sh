@@ -9,7 +9,7 @@ FINAL_RESULTS="${DATA_DIR}/final_results.json"
 
 
 # Define brands requiring EXACT matches (case-sensitive)
-STRICT_BRANDS="Mobil,Shell,Esso,Rona"  # <-- Add your blacklisted brands here
+STRICT_BRANDS="Mobil,Shell,Esso,Rona,Gap,Starbucks"  # <-- Add your blacklisted brands here
 
 # Split brands
 mkdir -p "$CHUNKS_DIR" "$QUERIES_DIR"
@@ -23,8 +23,8 @@ for chunk in "${CHUNKS_DIR}"/brands_chunk_*; do
     query_file="${QUERIES_DIR}/query_${chunk_number}.overpassql"
     awk -v strict_list="$STRICT_BRANDS" '
         BEGIN {
-            split(strict_list, strict_arr, ",")  # Convert strict list to array
-            for (i in strict_arr) strict[strict_arr[i]] = 1  # Create hashmap for quick lookup
+            split(strict_list, strict_arr, ",")
+            for (i in strict_arr) strict[strict_arr[i]] = 1
             print "[out:json][timeout:900];\narea[\"ISO3166-1\"=\"CA\"]->.canada;\n("
         }
         {
@@ -33,7 +33,6 @@ for chunk in "${CHUNKS_DIR}"/brands_chunk_*; do
                 # Exact match for blacklisted brands
                 printf "  nw[~\"^(brand|name)$\"~\"^%s$\"](area.canada);\n", brand
             } else {
-                # Fuzzy regex match for others
                 printf "  nw[~\"^(brand|name)$\"~\"%s\",i](area.canada);\n", brand
             }
         }
@@ -42,7 +41,7 @@ done
 
 # Run concurrent queries (with 2s delay between batches)
 export API_ENDPOINT='https://overpass-api.de/api/interpreter'
-find "$QUERIES_DIR" -name "query_*.overpassql" | parallel -j5 --delay 2 "
+find "$QUERIES_DIR" -name "query_*.overpassql" | parallel -j4 --delay 2 "
     echo 'Processing {}...' &&
     curl -s -X POST -d @{} ${API_ENDPOINT} > '{.}.json'
 "
