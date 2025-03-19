@@ -1,8 +1,9 @@
-import { MapContainer, Marker, TileLayer } from "react-leaflet";
-import { memo, useCallback, useState } from "react";
+import { MapContainer, Marker, TileLayer, useMap } from "react-leaflet";
+import { memo, useCallback, useEffect, useState } from "react";
 import locationData from "../data/coordinates.json";
 import MarkerClusterGroup from "react-leaflet-markercluster";
-import Description from "./CompanyDescription";
+import Info from "./Info";
+
 interface LocationData {
   tags: Partial<Record<string, string>>;
 }
@@ -39,6 +40,7 @@ function App() {
     {}
   );
   const [currMarker, setCurrMarker] = useState("");
+  const [isInfoOpen, setIsInfoOpen] = useState(true);
   const currShop =
     markerData[currMarker] === undefined
       ? ""
@@ -76,45 +78,15 @@ function App() {
   return (
     <>
       <div className="flex">
-        <div className="flex flex-col max-w-[15svw] min-w-[15svw] bg-[#fefefe] drop-shadow-lg z-500">
-          <Description currShop={currShop} />
-          <div className="flex mt-auto mb-2 gap-1 mx-auto">
-            <a
-              href="https://www.linkedin.com/in/moohaeng-sohn/"
-              target="_blank"
-            >
-              <img
-                className="h-8 w-8"
-                src="linkedin-mark.svg"
-                alt="Check out my LinkedIn Profile"
-              />
-            </a>
-            <a
-              href="https://github.com/alexsohn1126/CanuckCarto"
-              target="_blank"
-            >
-              <img
-                className="h-8 w-8"
-                src="github-mark.svg"
-                alt="Check out the github repository for this website"
-              />
-            </a>
-            <a href="https://ko-fi.com/X8X31BROYE" target="_blank">
-              <img
-                className="h-8 w-8"
-                src="kofi-mark.svg"
-                alt="Buy Me a Coffee at ko-fi.com"
-              />
-            </a>
-          </div>
-        </div>
-        <div className="w-full">
+        {isInfoOpen && <Info currShop={currShop} />}
+        <div className="w-full relative">
           <MapContainer
             center={[64.2, -96.1]}
             zoom={4}
             scrollWheelZoom={true}
             className="h-svh"
           >
+            <InfoToggle isInfoOpen={isInfoOpen} setIsInfoOpen={setIsInfoOpen} />
             <TileLayer
               maxNativeZoom={19}
               maxZoom={20}
@@ -137,6 +109,41 @@ function App() {
         </div>
       </div>
     </>
+  );
+}
+
+function InfoToggle({
+  isInfoOpen,
+  setIsInfoOpen,
+}: {
+  isInfoOpen: boolean;
+  setIsInfoOpen: (a: boolean) => void;
+}) {
+  const map = useMap();
+
+  useEffect(() => {
+    map.invalidateSize();
+  }, [isInfoOpen]);
+
+  return (
+    <div
+      className="absolute z-[1000]"
+      style={{
+        left: "0.5rem",
+        top: "50%",
+        transform: "translateY(-50%)",
+      }}
+    >
+      <button
+        onClick={() => {
+          setIsInfoOpen(!isInfoOpen);
+        }}
+        className="p-2 bg-white/90 rounded-full shadow-sm hover:bg-white transition-all
+                backdrop-blur-sm border border-gray-200 w-8 h-12 flex items-center justify-center"
+      >
+        {isInfoOpen ? "◀" : "▶"}
+      </button>
+    </div>
   );
 }
 
