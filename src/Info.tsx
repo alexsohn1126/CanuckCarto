@@ -1,10 +1,27 @@
+import { useContext } from "react";
 import Description from "./CompanyDescription";
+import { ModalContext } from "./modals/ModalContext";
 
 function Info({ currShop }: { currShop: string }) {
+  const { setActiveModal } = useContext(ModalContext);
   return (
-    <div className="flex flex-col max-w-[15svw] min-w-[15svw] bg-[#fefefe] drop-shadow-lg z-500">
+    <div className="flex flex-col overflow-y-auto max-h-svh max-w-xs min-w-xs bg-[#fefefe] drop-shadow-lg z-500">
       <Description currShop={currShop} />
-      <div className="flex mt-auto mb-2 gap-1 mx-auto">
+      <div className="mt-auto mx-auto text-sm text-gray-500">
+        <span
+          onClick={() => setActiveModal("aboutme")}
+          className="underline cursor-pointer"
+        >
+          About me
+        </span>{" "}
+        <span
+          onClick={() => setActiveModal("disclaimer")}
+          className="underline cursor-pointer"
+        >
+          Disclaimer
+        </span>
+      </div>
+      <div className="flex my-2 gap-1 mx-auto">
         <a href="https://www.linkedin.com/in/moohaeng-sohn/" target="_blank">
           <img
             className="h-8 w-8"

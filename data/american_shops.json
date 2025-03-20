@@ -1,0 +1,329 @@
+{
+  "shopToCompany": {
+    "American Eagle Outfitters": "American Eagle Outfitters",
+    "Applebee's": "Applebee's",
+    "Arby's": "Arby's",
+    "Banana Republic": "Banana Republic",
+    "Baskin-Robbins": "Baskin-Robbins",
+    "Bath & Body Works": "Bath & Body Works",
+    "Best Buy": "Best Buy",
+    "Best Buy Express": "Best Buy",
+    "Burger King": "Burger King",
+    "Carl's Jr.": "Carl's Jr.",
+    "Chevron": "Chevron",
+    "Chili's": "Chili's",
+    "Chipotle": "Chipotle",
+    "Costco": "Costco",
+    "Crumbl Cookies": "Crumbl Cookies",
+    "Dairy Queen": "Dairy Queen",
+    "Domino's": "Domino's Pizza",
+    "Esso": "Esso",
+    "Five Guys": "Five Guys",
+    "Foot Locker": "Foot Locker",
+    "Gap Outlet": "GAP",
+    "Gap Factory": "GAP",
+    "Gap": "GAP",
+    "H&R Block": "H&R Block",
+    "Home Depot": "Home Depot",
+    "The Home Depot": "Home Depot",
+    "HomeSense": "HomeSense",
+    "KFC": "KFC",
+    "Levi's": "Levi's",
+    "Little Caesars": "Little Caesars",
+    "Marshalls": "Marshalls",
+    "McDonald's": "McDonald's",
+    "Michaels": "Michaels",
+    "Mobil": "Mobil",
+    "Nike": "Nike",
+    "Old Navy": "Old Navy",
+    "Patagonia": "Patagonia",
+    "Pizza Hut": "Pizza Hut",
+    "Quiznos": "Quiznos",
+    "Rona": "Rona",
+    "Shake Shack": "Shake Shack",
+    "Staples": "Staples",
+    "Starbucks": "Starbucks",
+    "Subway": "Subway",
+    "Taco Bell": "Taco Bell",
+    "Tire & Lube Express": "Walmart",
+    "Victoria's Secret": "Victoria's Secret",
+    "Walmart": "Walmart",
+    "Walmart Pharmacy": "Walmart",
+    "Walmart Photo Centre": "Walmart",
+    "Walmart Supercentre": "Walmart",
+    "Walmart Vision Centre": "Walmart",
+    "Walmart Wireless": "Walmart",
+    "Wendy's": "Wendy's",
+    "Winners": "Winners"
+  },
+  "notFound": {
+    "description": "Uh oh... You are not supposed to see this! Please submit a bug report...",
+    "source": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+    "imageFile": "https://raw.githubusercontent.com/googlefonts/noto-emoji/refs/tags/v2017-04-03-update-for-noto-site/svg/emoji_u1f62d.svg",
+    "imageAttribution": "<a href=\"https://github.com/googlefonts/noto-emoji\">Noto Emoji</a>, SIL Open Font License Version 1.1, Via Google Fonts."
+  },
+  "American Eagle Outfitters": {
+    "description": "American Eagle Outfitters, Inc. is an American clothing and accessories retailer headquartered at SouthSide Works in Pittsburgh, Pennsylvania.",
+    "source": "https://en.wikipedia.org/wiki/American_Eagle_Outfitters",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/1/18/American_Eagle_Outfitters_wordmark.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:American_Eagle_Outfitters_wordmark.svg\">American Eagle Outfitters</a>, Public domain, via Wikimedia Commons"
+  },
+  "Applebee's": {
+    "description": "Applebee's Restaurants LLC is an American company that develops, franchises, and operates the Applebee's Neighborhood Grill + Bar restaurant chain.",
+    "source": "https://en.wikipedia.org/wiki/Applebee%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/82/AB_Brand_Refresh_Logo_R.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:AB_Brand_Refresh_Logo_R.png\">Applebees Restaurant LLC</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons"
+  },
+  "Arby's": {
+    "description": "Arby's is an American fast-food sandwich restaurant. Its parent company is Inspire Brands, an American fast-food restaurant franchise company.",
+    "source": "https://en.wikipedia.org/wiki/Arby%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Arby%27s_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Arby%27s_logo.svg\">Arby&#039;s</a>, Public domain, via Wikimedia Commons"
+  },
+  "Banana Republic": {
+    "description": "Banana Republic is an American upscale clothing and accessories retailer owned by Gap Inc.",
+    "source": "https://en.wikipedia.org/wiki/Banana_Republic",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/1/10/Banana_Republic.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Banana_Republic.svg\">The original uploader was Connormah at English Wikipedia.</a>, Public domain, via Wikimedia Commons"
+  },
+  "Baskin-Robbins": {
+    "description": "Baskin-Robbins is an American multinational chain of ice cream and cake specialty shops owned by Inspire Brands.",
+    "source": "https://en.wikipedia.org/wiki/Baskin-Robbins",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/97/Baskin-Robbins_logo_2022.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Baskin-Robbins_logo_2022.svg\">Baskin-Robbins</a>, Public domain, via Wikimedia Commons"
+  },
+  "Bath & Body Works": {
+    "description": "Bath & Body Works, LLC is an American retail store chain that sells soaps, lotions, fragrances, and candles. It is headquartered in Columbus, Ohio.",
+    "source": "https://en.wikipedia.org/wiki/Bath_%26_Body_Works",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Bath_%26_Body_Works_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Bath_%26_Body_Works_logo.svg\">Bath &amp; Body Works</a>, Public domain, via Wikimedia Commons"
+  },
+  "Best Buy": {
+    "description": "Best Buy Co., Inc. is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota.",
+    "source": "https://en.wikipedia.org/wiki/Best_Buy_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Best_Buy_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Best_Buy_Logo.svg\">The original uploader was KUsam at English Wikipedia.</a>, Public domain, via Wikimedia Commons"
+  },
+  "Burger King": {
+    "description": "Burger King originated in the U.S. but is now owned by Restaurant Brands International, a Canadian-American fast-food holding company.",
+    "source": "https://en.wikipedia.org/wiki/Burger_King",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Burger_King_2020.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Burger_King_2020.svg\">Burger King</a>, Public domain, via Wikimedia Commons"
+  },
+  "Carl's Jr.": {
+    "description": "Carl's Jr. Restaurants LLC is an American fast-food restaurant chain owned by CKE Restaurant Holdings, Inc.",
+    "source": "https://en.wikipedia.org/wiki/Carl%27s_Jr.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Carl%27s_Jr_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Carl%27s_Jr_logo.svg\">™/®CKE Restaurants Holdings</a>, Public domain, via Wikimedia Commons"
+  },
+  "Chevron": {
+    "description": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas.",
+    "source": "https://en.wikipedia.org/wiki/Chevron_Corporation",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/86/Chevron_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Chevron_Logo.svg\">Chevron Corporation</a>, Public domain, via Wikimedia Commons"
+  },
+  "Chili's": {
+    "description": "Chili's Grill & Bar (stylized as Chili's) is an American casual dining restaurant chain owned and operated by Brinker International, an American company.",
+    "source": "https://en.wikipedia.org/wiki/Chili%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Chili%27s_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Chili%27s_Logo.svg\">Brinker International</a>, Public domain, via Wikimedia Commons"
+  },
+  "Chipotle": {
+    "description": "Chipotle Mexican Grill, Inc., often known simply as Chipotle, is an American multinational chain of fast-casual restaurants headquartered in Newport Beach, California.",
+    "source": "https://en.wikipedia.org/wiki/Chipotle_Mexican_Grill",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/6/64/Chipotle_Mexican_Grill_%2814904194989%29.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Chipotle_Mexican_Grill_(14904194989).jpg\">Mike Mozart from Funny YouTube, USA</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
+  },
+  "Costco": {
+    "description": "Costco Wholesale Corporation is an American multinational corporation that operates a chain of membership-only big-box warehouse club retail stores.",
+    "source": "https://en.wikipedia.org/wiki/Costco_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/5/59/Costco_Wholesale_logo_2010-10-26.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Costco_Wholesale_logo_2010-10-26.svg\">Costco Wholesale</a>, Public domain, via Wikimedia Commons"
+  },
+  "Crumbl Cookies": {
+    "description": "Crumbl (previously branded as Crumbl Cookies) is a bakery franchise specializing in cookies. It is based in Logan, Utah.",
+    "source": "https://en.wikipedia.org/wiki/Crumbl_Cookies",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/7/72/Crumbl_logo_updated.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Crumbl_logo_updated.svg\">Crumbl, LLC</a>, Public domain, via Wikimedia Commons"
+  },
+  "Dairy Queen": {
+    "description": "Dairy Queen (also known as DQ) is an American fast-food chain headquartered in Bloomington, Minnesota. It is owned by Berkshire Hathaway, an American investment firm.",
+    "source": "https://en.wikipedia.org/wiki/Dairy_Queen",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dairy_Queen_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Dairy_Queen_logo.svg\">International Dairy Queen</a>, Public domain, via Wikimedia Commons"
+  },
+  "Domino's Pizza": {
+    "description": "Domino's Pizza, Inc. is an American pizza restaurant chain headquartered in Ann Arbor Township, Michigan.",
+    "source": "https://en.wikipedia.org/wiki/Domino%27s_Pizza",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Domino%27s_pizza_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Domino%27s_pizza_logo.svg\">Domino&#039;s Pizza</a>, Public domain, via Wikimedia Commons"
+  },
+  "Esso": {
+    "description": "Esso gas stations in Canada are operated by Imperial Oil Limited, a 69.6% ExxonMobil-owned company. ExxonMobil is an American oil company based in Spring, Texas.",
+    "source": "https://en.wikipedia.org/wiki/Esso_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/2/22/Esso_textlogo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Esso_textlogo.svg\">ExxonMobil</a>, Public domain, via Wikimedia Commons"
+  },
+  "Five Guys": {
+    "description": "Five Guys Enterprises, LLC is an American fast-food chain headquartered in Alexandria, Virginia.",
+    "source": "https://en.wikipedia.org/wiki/Five_Guys",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/80/Five_Guys_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Five_Guys_logo.svg\">Five GuysSVG conversion by Jbarta</a>, Public domain, via Wikimedia Commons"
+  },
+  "Foot Locker": {
+    "description": "Foot Locker, Inc. is an American multinational retailer of footwear and sportswear headquartered in Midtown Manhattan, New York City.",
+    "source": "https://en.wikipedia.org/wiki/Foot_Locker",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Foot_Locker_2020_Wordmark_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Foot_Locker_2020_Wordmark_Logo.svg\">Foot Locker</a>, Public domain, via Wikimedia Commons"
+  },
+  "GAP": {
+    "description": "Gap Inc. is an American clothing and accessories retailer. It operates four primary divisions: Gap, Banana Republic, Old Navy, and Athleta. It is headquartered in San Francisco, California.",
+    "source": "https://en.wikipedia.org/wiki/Gap_Inc.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Gap_Inc._logo_2024.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Gap_Inc._logo_2024.svg\">Gap Inc.</a>, Public domain, via Wikimedia Commons"
+  },
+  "H&R Block": {
+    "description": "H&R Block, Inc. is an American tax preparation company headquartered in Kansas City, Missouri.",
+    "source": "https://en.wikipedia.org/wiki/H%26R_Block",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/a2/HR_Block_logo.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:HR_Block_logo.png\">The original uploader was RadicalBender at English Wikipedia.</a>, Public domain, via Wikimedia Commons"
+  },
+  "Home Depot": {
+    "description": "The Home Depot is an American home improvement retail corporation headquartered in Cobb County, Georgia.",
+    "source": "https://en.wikipedia.org/wiki/The_Home_Depot_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/5/5f/TheHomeDepot.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:TheHomeDepot.svg\">The original uploader was Alex43223 at English Wikipedia.</a>, Public domain, via Wikimedia Commons"
+  },
+  "HomeSense": {
+    "description": "HomeSense is a Canadian chain of discount home furnishing stores. It is owned by TJX Companies, an American multinational off-price department store corporation.",
+    "source": "https://en.wikipedia.org/wiki/HomeSense",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/ae/HomeSense_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:HomeSense_Logo.svg\">[1]</a>, Public domain, via Wikimedia Commons"
+  },
+  "KFC": {
+    "description": "KFC Corporation is an American fast-food chain owned by Yum! Brands, an American fast-food corporation.",
+    "source": "https://en.wikipedia.org/wiki/KFC",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/1/1e/KFC_logo_wordmark.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:KFC_logo_wordmark.svg\">ISHKFC GmbH</a>, Public domain, via Wikimedia Commons"
+  },
+  "Levi's": {
+    "description": "Levi Strauss & Co. is an American clothing company widely known for its Levi's brand of denim jeans. It is headquartered in San Francisco, California.",
+    "source": "https://en.wikipedia.org/wiki/Levi%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/0/02/Levi%27s_logo_%282011%29.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Levi%27s_logo_(2011).svg\">Original: Levi Strauss &amp; Co. Vector:  Angelus</a>, Public domain, via Wikimedia Commons"
+  },
+  "Little Caesars": {
+    "description": "Little Caesar Enterprises Inc. is an American pizza chain headquartered in Detroit, Michigan.",
+    "source": "https://en.wikipedia.org/wiki/Little_Caesars",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/95/Little_Caesars_Pizza_Edmonton_Callingwood_July_2023.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Little_Caesars_Pizza_Edmonton_Callingwood_July_2023.jpg\">Rowanswiki</a>, CC0, via Wikimedia Commons"
+  },
+  "Marshalls": {
+    "description": "Marshalls, Inc. is an American chain of off-price department stores. It is owned by TJX Companies, an American multinational off-price department store corporation.",
+    "source": "https://en.wikipedia.org/wiki/Marshalls_(store)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Marshalls_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Marshalls_Logo.svg\">See page for author</a>, Public domain, via Wikimedia Commons"
+  },
+  "McDonald's": {
+    "description": "McDonald's Restaurants of Canada, Limited is a subsidiary of McDonald's Corporation, which operates in the U.S.",
+    "source": "https://en.wikipedia.org/wiki/McDonald%27s_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/36/McDonald%27s_Golden_Arches.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:McDonald%27s_Golden_Arches.svg\">McDonald&#039;s</a>, Public domain, via Wikimedia Commons"
+  },
+  "Michaels": {
+    "description": "Michaels Stores, Inc. is an American arts and crafts retail chain headquartered in Irving, Texas.",
+    "source": "https://en.wikipedia.org/wiki/Michaels",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/95/Michaels_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Michaels_logo.svg\">Michaels</a>, Public domain, via Wikimedia Commons"
+  },
+  "Mobil": {
+    "description": "Mobil gas stations in Canada are owned by Brookfield Business Partners, headquartered in Canada. However, they license the Mobil brand from ExxonMobil, an American company.",
+    "source": "https://en.wikipedia.org/wiki/Mobil",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Mobil_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Mobil_logo.svg\">The original uploader was Cheeselouise at English Wikipedia.</a>, Public domain, via Wikimedia Commons"
+  },
+  "Nike": {
+    "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon.",
+    "source": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Logo_NIKE.svg\">Carolyn Davidson, Nike</a>, Public domain, via Wikimedia Commons"
+  },
+  "Old Navy": {
+    "description": "Old Navy is an American clothing and accessories retailing company owned by Gap Inc., an American corporation headquartered in San Francisco, California.",
+    "source": "https://en.wikipedia.org/wiki/Old_Navy",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Old_Navy_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Old_Navy_Logo.svg\">Old Navy</a>, Public domain, via Wikimedia Commons"
+  },
+  "Patagonia": {
+    "description": "Patagonia, Inc. is an American retailer of outdoor recreation clothing headquartered in Ventura, California.",
+    "source": "https://en.wikipedia.org/wiki/Patagonia_(company)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Patagonia_%28Unternehmen%29_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Patagonia_(Unternehmen)_logo.svg\">See page for author</a>, Public domain, via Wikimedia Commons"
+  },
+  "Pizza Hut": {
+    "description": "Pizza Hut, LLC is a subsidiary of Yum! Brands, Inc., an American fast-food corporation headquartered in Louisville, Kentucky.",
+    "source": "https://en.wikipedia.org/wiki/Pizza_Hut",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/0/06/Pizza_hut_logo_international.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Pizza_hut_logo_international.svg\">Yum! Brands, Inc.</a>, Public domain, via Wikimedia Commons"
+  },
+  "Quiznos": {
+    "description": "Quiznos is owned by Quiz Holdings, LLC, an American company headquartered in Denver, Colorado.",
+    "source": "https://en.wikipedia.org/wiki/Quiznos",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/4/48/Quiznos_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Quiznos_logo.svg\">Quiznos</a>, Public domain, via Wikimedia Commons"
+  },
+  "Shake Shack": {
+    "description": "Shake Shack is an American fast-casual restaurant chain headquartered in New York City.",
+    "source": "https://en.wikipedia.org/wiki/Shake_Shack",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/96/Shake_Shack_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Shake_Shack_logo.svg\">Shake Shack</a>, Public domain, via Wikimedia Commons"
+  },
+  "Staples": {
+    "description": "Staples Canada ULC is owned by Sycamore Partners, an American private equity firm based in New York City.",
+    "source": "https://en.wikipedia.org/wiki/Staples_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Staples_Canada_2018_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Staples_Canada_2018_logo.svg\">Staples Canada</a>, Public domain, via Wikimedia Commons"
+  },
+  "Starbucks": {
+    "description": "Starbucks Corporation is an American chain of coffeehouses headquartered in Seattle, Washington.",
+    "source": "https://en.wikipedia.org/wiki/Starbucks",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Starbucks_logo.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Starbucks_logo.jpg\">Marco Paköeningrat</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a>, via Wikimedia Commons"
+  },
+  "Subway": {
+    "description": "Subway IP LLC is an American fast-food restaurant franchise.",
+    "source": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Subway_2016_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Subway_2016_logo.svg\">Subway</a>, Public domain, via Wikimedia Commons"
+  },
+  "Taco Bell": {
+    "description": "Taco Bell Corp. is an American fast-food chain and subsidiary of Yum! Brands, Inc., an American fast-food corporation.",
+    "source": "https://en.wikipedia.org/wiki/Taco_Bell",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/4/4a/EPSN1229_%282409449218%29.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:EPSN1229_(2409449218).jpg\">Matt Jiggins from Paris, France</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons"
+  },
+  "Victoria's Secret": {
+    "description": "Victoria's Secret is an American lingerie, clothing, and beauty retailer headquartered in Reynoldsburg, Ohio.",
+    "source": "https://en.wikipedia.org/wiki/Victoria%27s_Secret",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/7/70/Victoria%27s_Secret_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Victoria%27s_Secret_logo.svg\">Victoria&#039;s Secret</a>, Public domain, via Wikimedia Commons"
+  },
+  "Walmart": {
+    "description": "Walmart Canada is wholly owned by Walmart Inc., an American retail corporation.",
+    "source": "https://en.wikipedia.org/wiki/Walmart_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/be/Walmart_Canada_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Walmart_Canada_Logo.svg\">WalmartUploaded by Connormah at en.wikipedia</a>, Public domain, via Wikimedia Commons"
+  },
+  "Wendy's": {
+    "description": "Wendy's is owned by The Wendy's Company, an American fast-food corporation.",
+    "source": "https://en.wikipedia.org/wiki/Wendy%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/6/66/Wendy%27s_logo_2012.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Wendy%27s_logo_2012.svg\">Gindomarlo</a>, Public domain, via Wikimedia Commons"
+  },
+  "Winners": {
+    "description": "Winners Merchants International L.P. is a chain of off-price Canadian department stores owned by TJX Companies, an American multinational corporation.",
+    "source": "https://en.wikipedia.org/wiki/Winners",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/39/Winners_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Winners_logo.svg\">TJX Companies</a>, Public domain, via Wikimedia Commons"
+  }
+}

@@ -10,8 +10,9 @@ import {
 } from "react";
 import WelcomeMessage from "./WelcomeMessage";
 import Disclaimer from "./Disclaimer";
+import AboutMe from "./AboutMe";
 
-type ModalType = "welcome" | "disclaimer" | "";
+type ModalType = "welcome" | "disclaimer" | "aboutme" | "";
 
 interface ModalState {
   activeModal: ModalType;
@@ -73,6 +74,7 @@ function ModalWrapper() {
           />
         )}
         {activeModal === "disclaimer" && <Disclaimer onClose={onClose} />}
+        {activeModal === "aboutme" && <AboutMe onClose={onClose} />}
       </div>
     </div>
   );

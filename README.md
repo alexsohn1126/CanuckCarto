@@ -1,54 +1,50 @@
-# React + TypeScript + Vite
+# CanuckCarto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X31BROYE)
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+1. [Introduction](#introduction)
+2. [Contributing](#contributing)
+3. [Developing](#developing)
+4. [Others](#others)
 
-## Expanding the ESLint configuration
+## Introduction
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+![CanuckCarto Logo](./public/logo.png)
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+Welcome to the Github repository for CanuckCarto! I made this website to allow Canadians who are boycotting United States companies.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+First of all, thanks to OpenStreetMap for providing me with all this information, and Overpass API for making it easy to access these information.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+Along with that, I also have created a very minimal Express Backend to provide an API for the location to brand mapping.
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+This project is hosted in a VPS by Servarica, a Montréal based VPS hosting company.
+
+## Developing
+
+To run this project (assuming you have cloned the repo):
+
+Make sure to `chmod +x *.sh` to allow the scripts to run.
+
+1. (Optional) Run `fetchData.sh`
+
+- If some queries failed, you can retry queries by running `retryQuery.sh`, with the path to `.overpassql` files as arguments (as many as you want)
+
+2. Run `processData.sh`.
+3. Run `npm install` to download all the necesary packages
+4. Run `npm run dev`. Now, you should be able to access `localhost:5173` to access the website.
+
+This app uses Leaflet along with React. It uses this amazing package called [React Leaflet](https://react-leaflet.js.org/), which provides React components for Leaflet maps.
+
+During the development, I have extensively used [Devenv](https://devenv.sh/) to manage project dependencies and scripts. This should be optional for developing or running this project locally. But just make sure that you have the packages installed in `devenv.nix`, under `packages` (such as `jq`).
+
+I used shell scripts to automatically download and format data from [Overpass API](https://overpass-api.de/). It takes the list of shops in `./data/american_shops.json`, and separates it into chunks of 5 names per query, and we run them parallel so it goes faster. It is currently set to 4 parallel commands at the same time, but if you want to, you can increase it. However, I did encounter a rate limit error when I tried running 5 or more curl commands parallelly.
+
+## Contributing
+
+This is my personal project, but if you would like to contribute, or raise any concerns/issues, I will be glad to take it into consideration! For that, please create a new issue in this repository.
+
+## Others
+
+If you liked this project, please consider donating me via [Ko-Fi](https://ko-fi.com/alexsohn). I am also looking for a Junior software developer position, so if you would like to hire me, shoot me a message on [LinkedIn](https://ko-fi.com/alexsohn)!

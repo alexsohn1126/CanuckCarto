@@ -58,13 +58,13 @@ function Disclaimer({ onClose }: { onClose: () => void }) {
       <hr className="my-5 border-gray-200" />
 
       <p className="text-xs text-gray-600">
-        Contact us at{" "}
+        Contact me at{" "}
         <a
           href="mailto:[your@email.com]"
           className="text-blue-600 hover:underline"
         >
           alexsohn1126@gmail.com
-        </a>
+        </a>{" "}
         with corrections or concerns.
       </p>
     </>

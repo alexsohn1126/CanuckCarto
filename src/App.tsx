@@ -16,25 +16,6 @@ async function getLocationData(key: string): Promise<LocationData[]> {
   return resJson;
 }
 
-// Marker has to be memoed or it rerenders every marker on click
-const ShopMarker = memo(function ShopMarker({
-  lat,
-  lng,
-  onClick,
-}: {
-  lat: number;
-  lng: number;
-  onClick: (lat: number, lng: number) => void;
-}) {
-  const handleClick = useCallback(() => {
-    onClick(lat, lng);
-  }, [lat, lng, onClick]);
-
-  return (
-    <Marker position={[lat, lng]} eventHandlers={{ click: handleClick }} />
-  );
-});
-
 function App() {
   const [markerData, setMarkerData] = useState<Record<string, LocationData[]>>(
     {}
@@ -52,6 +33,7 @@ function App() {
     // OSM nodes have 7 decimal places
     // https://wiki.openstreetmap.org/wiki/Node#Structure
     const key = `${lat.toFixed(7)}${lng.toFixed(7)}`;
+    setIsInfoOpen(true);
 
     if (!(key in markerData)) {
       getLocationData(key)
@@ -76,39 +58,37 @@ function App() {
   | Data from <a href="https://overpass-api.de/"> Overpass API </a>`;
 
   return (
-    <>
-      <div className="flex">
-        {isInfoOpen && <Info currShop={currShop} />}
-        <div className="w-full relative">
-          <MapContainer
-            center={[64.2, -96.1]}
-            zoom={4}
-            scrollWheelZoom={true}
-            className="h-svh"
-          >
-            <InfoToggle isInfoOpen={isInfoOpen} setIsInfoOpen={setIsInfoOpen} />
-            <TileLayer
-              maxNativeZoom={19}
-              maxZoom={20}
-              attribution={attribution}
-              url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-            />
-            <MarkerClusterGroup disableClusteringAtZoom={17}>
-              {locations.map(([lat, lng]) => {
-                return (
-                  <ShopMarker
-                    key={`${lat}${lng}`}
-                    lat={lat}
-                    lng={lng}
-                    onClick={handleMarkerClick}
-                  />
-                );
-              })}
-            </MarkerClusterGroup>
-          </MapContainer>
-        </div>
+    <div className="flex">
+      {isInfoOpen && <Info currShop={currShop} />}
+      <div className="w-full relative">
+        <MapContainer
+          center={[64.2, -96.1]}
+          zoom={4}
+          scrollWheelZoom={true}
+          className="h-svh"
+        >
+          <InfoToggle isInfoOpen={isInfoOpen} setIsInfoOpen={setIsInfoOpen} />
+          <TileLayer
+            maxNativeZoom={19}
+            maxZoom={20}
+            attribution={attribution}
+            url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
+          />
+          <MarkerClusterGroup disableClusteringAtZoom={17}>
+            {locations.map(([lat, lng]) => {
+              return (
+                <ShopMarker
+                  key={`${lat}${lng}`}
+                  lat={lat}
+                  lng={lng}
+                  onClick={handleMarkerClick}
+                />
+              );
+            })}
+          </MarkerClusterGroup>
+        </MapContainer>
       </div>
-    </>
+    </div>
   );
 }
 
@@ -139,5 +119,27 @@ function InfoToggle({
     </div>
   );
 }
+
+// Marker has to be memoed or it rerenders every marker on click
+const ShopMarker = memo(function ShopMarker({
+  lat,
+  lng,
+  onClick,
+}: {
+  lat: number;
+  lng: number;
+  onClick: (lat: number, lng: number) => void;
+}) {
+  const map = useMap();
+  const handleClick = useCallback(() => {
+    onClick(lat, lng);
+    map.setView([lat, lng], 18);
+    map.invalidateSize();
+  }, [lat, lng, onClick]);
+
+  return (
+    <Marker position={[lat, lng]} eventHandlers={{ click: handleClick }} />
+  );
+});
 
 export default App;
