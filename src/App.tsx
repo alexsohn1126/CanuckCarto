@@ -126,14 +126,7 @@ function InfoToggle({
   }, [isInfoOpen]);
 
   return (
-    <div
-      className="absolute z-[1000]"
-      style={{
-        left: "0.5rem",
-        top: "50%",
-        transform: "translateY(-50%)",
-      }}
-    >
+    <div className="absolute z-[1000] left-2 top-1/2 -translate-y-1/2">
       <button
         onClick={() => {
           setIsInfoOpen(!isInfoOpen);

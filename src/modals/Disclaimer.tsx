@@ -1,4 +1,4 @@
-function AboutUs({ onClose }: { onClose: () => void }) {
+function Disclaimer({ onClose }: { onClose: () => void }) {
   return (
     <>
       <button
@@ -71,4 +71,4 @@ function AboutUs({ onClose }: { onClose: () => void }) {
   );
 }
 
-export default AboutUs;
+export default Disclaimer;

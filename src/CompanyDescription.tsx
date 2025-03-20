@@ -42,11 +42,20 @@ function HelloDescription() {
         className="h-1/2 w-1/2 m-auto drop-shadow-lg [image-rendering:pixelated]"
         src="logo.png"
       />
-      <h3 className="text-3xl mx-auto mt-5">CanuckCarto</h3>
+      <h3 className="text-3xl mx-auto mt-5 mb-10">CanuckCarto</h3>
       <p>Welcome! I have compiled a map of american businesses in Canada.</p>
       <p>
-        If there is an issue, technical or informational, please raise an issue
-        at this{" "}
+        If you like this website, please consider donating by clicking{" "}
+        <img src="kofi-mark.svg" className="inline w-6 h-6" /> below.
+      </p>
+      <p>
+        I am currently looking for an entry-level software developer position,
+        in Ottawa region, or Canada remote, so if you would like to refer me or
+        hire me, please click the linkedin logo below!
+      </p>
+      <p>
+        If there is an issue, technical or informational, or would like me to
+        add more american companies, please raise an issue at this{" "}
         <a
           href="https://github.com/alexsohn1126/CanuckCarto/issues"
           className="underline"
@@ -60,7 +69,7 @@ function HelloDescription() {
         This site shares locations of American businesses in Canada. I aim to
         inform, not endorse or discourage visits. Learn more in the{" "}
         <span
-          onClick={() => setActiveModal("about")}
+          onClick={() => setActiveModal("disclaimer")}
           className="underline cursor-pointer"
         >
           Disclaimer

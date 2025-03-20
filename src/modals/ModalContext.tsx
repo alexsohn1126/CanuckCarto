@@ -9,9 +9,9 @@ import {
   JSX,
 } from "react";
 import WelcomeMessage from "./WelcomeMessage";
-import AboutUs from "./AboutUs";
+import Disclaimer from "./Disclaimer";
 
-type ModalType = "welcome" | "about" | "";
+type ModalType = "welcome" | "disclaimer" | "";
 
 interface ModalState {
   activeModal: ModalType;
@@ -72,7 +72,7 @@ function ModalWrapper() {
             onPermanentClose={permanentDismissWelcome}
           />
         )}
-        {activeModal === "about" && <AboutUs onClose={onClose} />}
+        {activeModal === "disclaimer" && <Disclaimer onClose={onClose} />}
       </div>
     </div>
   );

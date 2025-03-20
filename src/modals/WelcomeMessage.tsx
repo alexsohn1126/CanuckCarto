@@ -21,9 +21,10 @@ function WelcomeMessage({
       </p>
 
       <p className="text-gray-600 mb-6">
-        If you like this website, please considering donating following the
-        Ko-Fi link (<img src="kofi-mark.svg" className="inline w-6 h-6" />) on
-        the bottom left corner.
+        If you like this website and would like to support me, please
+        considering donating following the Ko-Fi link (
+        <img src="kofi-mark.svg" className="inline w-6 h-6" />) on the bottom
+        left corner.
       </p>
 
       <p className="text-gray-600 mb-6">
