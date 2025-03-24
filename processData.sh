@@ -9,7 +9,7 @@ fi
 
 echo "Processing raw json into geojson..."
 
-jq '
+jq -c '
 {
   "type": "FeatureCollection",
   "generator": "overpass-turbo",
