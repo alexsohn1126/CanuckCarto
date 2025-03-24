@@ -1,14 +1,23 @@
-import { MapContainer, Marker, TileLayer, useMap } from "react-leaflet";
+import {
+  GeoJSON,
+  MapContainer,
+  Marker,
+  TileLayer,
+  useMap,
+} from "react-leaflet";
 import { memo, useCallback, useEffect, useState } from "react";
-import locationData from "../data/coordinates.json";
 import MarkerClusterGroup from "react-leaflet-markercluster";
+import provinceBorders from "../data/provincial-borders.min.json";
 import Info from "./Info";
+import { Icon, LeafletMouseEvent } from "leaflet";
+import { FeatureCollection } from "geojson";
 
-interface LocationData {
-  tags: Partial<Record<string, string>>;
-}
+type LocationData = Partial<Record<string, string>>;
 
-const locations: [number, number][] = locationData as [number, number][];
+type Location = [number, number];
+
+const provinceBordersData: FeatureCollection =
+  provinceBorders as FeatureCollection;
 
 async function getLocationData(key: string): Promise<LocationData[]> {
   const res = await fetch(`/api/location/${key}`);
@@ -16,17 +25,84 @@ async function getLocationData(key: string): Promise<LocationData[]> {
   return resJson;
 }
 
+async function getMarkerList(province: string): Promise<Location[]> {
+  const res = await fetch(`/api/province/${province}`);
+  const resJson = (await res.json()) as Location[];
+  return resJson;
+}
+
+const mapleIcon = new Icon({
+  iconUrl: "maple.png",
+  iconSize: [30, 30],
+});
+
+// Marker has to be memoed or it rerenders every marker on click
+const ShopMarker = memo(function ShopMarker({
+  lat,
+  lng,
+  onClick,
+}: {
+  lat: number;
+  lng: number;
+  onClick: (lat: number, lng: number) => void;
+}) {
+  const map = useMap();
+  const handleClick = useCallback(() => {
+    onClick(lat, lng);
+    map.flyTo([lat, lng], 18, { animate: true, duration: 1.5 });
+  }, [lat, lng, onClick]);
+
+  return (
+    <Marker
+      icon={mapleIcon}
+      position={[lat, lng]}
+      eventHandlers={{ click: handleClick }}
+    />
+  );
+});
+
+function InfoToggle({
+  isInfoOpen,
+  setIsInfoOpen,
+}: {
+  isInfoOpen: boolean;
+  setIsInfoOpen: (a: boolean) => void;
+}) {
+  const map = useMap();
+
+  useEffect(() => {
+    map.invalidateSize();
+  }, [isInfoOpen]);
+
+  return (
+    <div className="absolute z-[1000] left-2 top-1/2 -translate-y-1/2">
+      <button
+        onClick={() => {
+          setIsInfoOpen(!isInfoOpen);
+        }}
+        className="p-2 bg-white/90 rounded-full shadow-sm
+         hover:bg-white transition-all backdrop-blur-sm border
+         border-gray-200 w-8 h-12 flex items-center justify-center"
+      >
+        {isInfoOpen ? "◀" : "▶"}
+      </button>
+    </div>
+  );
+}
+
 function App() {
   const [markerData, setMarkerData] = useState<Record<string, LocationData[]>>(
     {}
   );
+  const [markerList, setMarkerList] = useState<Location[]>([]);
   const [currMarker, setCurrMarker] = useState("");
   const [isInfoOpen, setIsInfoOpen] = useState(true);
+  // TODO: Handle cases where there are more than 1 shop per location
   const currShop =
     markerData[currMarker] === undefined
       ? ""
-      : markerData[currMarker][0]["tags"]["brand"] ||
-        markerData[currMarker][0]["tags"]["name"] ||
+      : markerData[currMarker][0]["brand"] ||
+        markerData[currMarker][0]["name"] ||
         "";
 
   const handleMarkerClick = useCallback((lat: number, lng: number) => {
@@ -54,8 +130,8 @@ function App() {
   }, []);
 
   const attribution = `
-  &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors
-  | Data from <a href="https://overpass-api.de/"> Overpass API </a>`;
+  &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>
+  contributors`;
 
   return (
     <div className="flex">
@@ -74,8 +150,9 @@ function App() {
             attribution={attribution}
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
+          <Provinces setMarkerList={setMarkerList} />
           <MarkerClusterGroup disableClusteringAtZoom={17}>
-            {locations.map(([lat, lng]) => {
+            {markerList.map(([lat, lng]) => {
               return (
                 <ShopMarker
                   key={`${lat}${lng}`}
@@ -92,54 +169,32 @@ function App() {
   );
 }
 
-function InfoToggle({
-  isInfoOpen,
-  setIsInfoOpen,
-}: {
-  isInfoOpen: boolean;
-  setIsInfoOpen: (a: boolean) => void;
-}) {
-  const map = useMap();
+const provinceStyle = {
+  color: "#ff1111",
+  weight: 2,
+  fillOpacity: 0,
+};
 
-  useEffect(() => {
-    map.invalidateSize();
-  }, [isInfoOpen]);
+function Provinces({
+  setMarkerList,
+}: {
+  setMarkerList: (location: Location[]) => void;
+}) {
+  const onProvinceClick = useCallback((e: LeafletMouseEvent) => {
+    const province = e.propagatedFrom.feature.properties["ISO3166-2"];
+    console.log(province);
+    getMarkerList(province).then((res) => setMarkerList(res));
+  }, []);
 
   return (
-    <div className="absolute z-[1000] left-2 top-1/2 -translate-y-1/2">
-      <button
-        onClick={() => {
-          setIsInfoOpen(!isInfoOpen);
-        }}
-        className="p-2 bg-white/90 rounded-full shadow-sm hover:bg-white transition-all
-                backdrop-blur-sm border border-gray-200 w-8 h-12 flex items-center justify-center"
-      >
-        {isInfoOpen ? "◀" : "▶"}
-      </button>
-    </div>
+    <GeoJSON
+      data={provinceBordersData}
+      style={provinceStyle}
+      eventHandlers={{
+        click: onProvinceClick,
+      }}
+    />
   );
 }
-
-// Marker has to be memoed or it rerenders every marker on click
-const ShopMarker = memo(function ShopMarker({
-  lat,
-  lng,
-  onClick,
-}: {
-  lat: number;
-  lng: number;
-  onClick: (lat: number, lng: number) => void;
-}) {
-  const map = useMap();
-  const handleClick = useCallback(() => {
-    onClick(lat, lng);
-    map.setView([lat, lng], 18);
-    map.invalidateSize();
-  }, [lat, lng, onClick]);
-
-  return (
-    <Marker position={[lat, lng]} eventHandlers={{ click: handleClick }} />
-  );
-});
 
 export default App;

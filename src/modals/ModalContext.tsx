@@ -63,10 +63,14 @@ function ModalWrapper() {
 
   return (
     <div
-      className="fixed inset-0 w-screen h-screen backdrop-blur-sm bg-white/50 flex items-center justify-center z-[1000]"
+      className="fixed inset-0 w-screen h-screen backdrop-blur-sm 
+        bg-white/50 flex items-center justify-center z-[1000]"
       onClick={handleBackgroundClick}
     >
-      <div className="animate-slideIn bg-white p-8 rounded-xl shadow-lg max-w-[500px] w-[90%] text-center relative">
+      <div
+        className="animate-slideIn bg-white p-8 rounded-xl shadow-lg
+        max-w-[500px] w-[90%] text-center relative"
+      >
         {activeModal === "welcome" && (
           <WelcomeMessage
             onClose={onClose}

@@ -1,0 +1,5 @@
+package Coordinates;
+syntax = "proto3";
+message CoordinateMessage {
+  repeated float latlon = 1;
+}
