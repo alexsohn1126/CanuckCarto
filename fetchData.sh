@@ -1,4 +1,4 @@
-OUTPUT_DIR="${PWD}/osm-data/province-data/raw/"
+OUTPUT_DIR="${PWD}/osm-data/province-data/"
 mkdir -p "$OUTPUT_DIR"
 
 read -r -d '' query << EOF
