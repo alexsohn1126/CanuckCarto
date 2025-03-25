@@ -1,7 +1,6 @@
-import { MapContainer, Marker, TileLayer, useMap } from "react-leaflet";
-import { memo, useCallback, useEffect, useState } from "react";
+import { MapContainer, TileLayer, useMap } from "react-leaflet";
+import { useCallback, useEffect, useState } from "react";
 import Info from "./Info";
-import { Icon } from "leaflet";
 import MarkerCluster from "./MarkerCluster";
 
 type LocationData = Partial<Record<string, string>>;
@@ -13,36 +12,6 @@ async function getLocationData(key: string): Promise<LocationData[]> {
   const resJson = (await res.json()) as LocationData[];
   return resJson;
 }
-
-const mapleIcon = new Icon({
-  iconUrl: "maple.png",
-  iconSize: [30, 30],
-});
-
-// Marker has to be memoed or it rerenders every marker on click
-const ShopMarker = memo(function ShopMarker({
-  lat,
-  lng,
-  onClick,
-}: {
-  lat: number;
-  lng: number;
-  onClick: (lat: number, lng: number) => void;
-}) {
-  const map = useMap();
-  const handleClick = useCallback(() => {
-    onClick(lat, lng);
-    map.flyTo([lat, lng], 18, { animate: true, duration: 1.5 });
-  }, [lat, lng, onClick]);
-
-  return (
-    <Marker
-      icon={mapleIcon}
-      position={[lat, lng]}
-      eventHandlers={{ click: handleClick }}
-    />
-  );
-});
 
 function InfoToggle({
   isInfoOpen,
