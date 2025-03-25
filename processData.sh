@@ -1,13 +1,13 @@
-INPUT_FILE="${PWD}/osm-data/province-data/raw-data.json"
-OUTPUT_FILE="${PWD}/osm-data/province-data/processed-data.geojson"
+INPUT_FILE="${PWD}/osm-data/raw-data.json"
+OUTPUT_FILE="${PWD}/osm-data/processed-data.json"
 
 if [ ! -f $INPUT_FILE ]; then
-  echo -e "File not found."
+  echo -e "File not found at $INPUT_FILE."
   echo -e "Did you run fetchData first, and are you in project root?"
   exit 1
 fi
 
-echo "Processing raw json into geojson..."
+echo "Processing raw json into geojson format..."
 
 jq -c '
 {
@@ -20,7 +20,7 @@ jq -c '
       type: "Feature",
       geometry: {
         type: "Point",
-        coordinates: [(.lat // .center?.lat), (.lon // .center?.lon)]
+        coordinates: [(.lon // .center?.lon), (.lat // .center?.lat)]
       },
       properties: (.tags + {id: (.type + (.id | tostring))})
     }

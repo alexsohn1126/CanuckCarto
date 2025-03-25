@@ -1,33 +1,16 @@
-import {
-  GeoJSON,
-  MapContainer,
-  Marker,
-  TileLayer,
-  useMap,
-} from "react-leaflet";
+import { MapContainer, Marker, TileLayer, useMap } from "react-leaflet";
 import { memo, useCallback, useEffect, useState } from "react";
-import MarkerClusterGroup from "react-leaflet-markercluster";
-import provinceBorders from "../data/provincial-borders.min.json";
 import Info from "./Info";
-import { Icon, LeafletMouseEvent } from "leaflet";
-import { FeatureCollection } from "geojson";
+import { Icon } from "leaflet";
+import MarkerCluster from "./MarkerCluster";
 
 type LocationData = Partial<Record<string, string>>;
 
 type Location = [number, number];
 
-const provinceBordersData: FeatureCollection =
-  provinceBorders as FeatureCollection;
-
 async function getLocationData(key: string): Promise<LocationData[]> {
   const res = await fetch(`/api/location/${key}`);
   const resJson = (await res.json()) as LocationData[];
-  return resJson;
-}
-
-async function getMarkerList(province: string): Promise<Location[]> {
-  const res = await fetch(`/api/province/${province}`);
-  const resJson = (await res.json()) as Location[];
   return resJson;
 }
 
@@ -150,50 +133,10 @@ function App() {
             attribution={attribution}
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          <Provinces setMarkerList={setMarkerList} />
-          <MarkerClusterGroup disableClusteringAtZoom={17}>
-            {markerList.map(([lat, lng]) => {
-              return (
-                <ShopMarker
-                  key={`${lat}${lng}`}
-                  lat={lat}
-                  lng={lng}
-                  onClick={handleMarkerClick}
-                />
-              );
-            })}
-          </MarkerClusterGroup>
+          <MarkerCluster handleMarkerClick={handleMarkerClick} />
         </MapContainer>
       </div>
     </div>
-  );
-}
-
-const provinceStyle = {
-  color: "#ff1111",
-  weight: 2,
-  fillOpacity: 0,
-};
-
-function Provinces({
-  setMarkerList,
-}: {
-  setMarkerList: (location: Location[]) => void;
-}) {
-  const onProvinceClick = useCallback((e: LeafletMouseEvent) => {
-    const province = e.propagatedFrom.feature.properties["ISO3166-2"];
-    console.log(province);
-    getMarkerList(province).then((res) => setMarkerList(res));
-  }, []);
-
-  return (
-    <GeoJSON
-      data={provinceBordersData}
-      style={provinceStyle}
-      eventHandlers={{
-        click: onProvinceClick,
-      }}
-    />
   );
 }
 

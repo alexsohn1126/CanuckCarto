@@ -1,47 +1,56 @@
 import express, { Request, Response } from "express";
+import Supercluster, { AnyProps, PointFeature } from "supercluster";
+
+import processedData from "../osm-data/processed-data.json";
 
 const app = express();
+app.use(express.json());
 const port = 5000;
 
-const provinceToCoordinateData = {
-  "CA-AB": ABCoordinateData,
-  "CA-BC": BCCoordinateData,
-  "CA-MB": MBCoordinateData,
-  "CA-NB": NBCoordinateData,
-  "CA-NL": NLCoordinateData,
-  "CA-NS": NSCoordinateData,
-  "CA-NT": NTCoordinateData,
-  "CA-NU": NUCoordinateData,
-  "CA-ON": ONCoordinateData,
-  "CA-PE": PECoordinateData,
-  "CA-QC": QCCoordinateData,
-  "CA-SK": SKCoordinateData,
-  "CA-YT": YTCoordinateData,
-};
-
-app.get("/api/location/:location", (req: Request, res: Response) => {
-  const location = req.params.location;
-
-  if (location in tagsData) {
-    res.send(tagsData[location]);
-  } else {
-    res.status(404);
-    res.send({ error: "resource not found" });
-  }
+const cluster = new Supercluster({
+  maxZoom: 17,
+  minPoints: 2,
+  radius: 100,
 });
 
-app.get("/api/province/:province", (req: Request, res: Response) => {
-  const province = req.params.province;
-  if (province in provinceToCoordinateData) {
-    res.send(provinceToCoordinateData[province]);
-  } else {
-    res.status(404);
-    res.send({ error: "resource not found" });
+const features = processedData["features"] as PointFeature<AnyProps>[];
+console.log(features[0]);
+cluster.load(features);
+
+function isBBox(value: unknown): value is [number, number, number, number] {
+  return (
+    Array.isArray(value) &&
+    value.length === 4 &&
+    value.every((item) => typeof item === "number")
+  );
+}
+
+app.post("/api/clusters/", (req: Request, res: Response) => {
+  console.log(req.body);
+  const bbox = req.body?.bbox;
+  const zoom = req.body?.zoom;
+
+  if (bbox === undefined || zoom === undefined) {
+    res.status(400);
+    res.send({ error: "Did not receive bbox or zoom" });
+    return;
   }
+
+  if (!isBBox(bbox) || !Number.isInteger(zoom)) {
+    res.status(400);
+    res.send({
+      error: "Invalid bbox or zoom... Are you messing around with my api?",
+    });
+    return;
+  }
+
+  const resCluster = cluster.getClusters(bbox, zoom);
+  res.send(resCluster);
+  console.log("yep thats right");
 });
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`);
 });
 
-console.log("helllloo");
+console.log("Server Initialization Complete");
