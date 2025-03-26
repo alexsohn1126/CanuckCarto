@@ -7,7 +7,8 @@
 1. [Introduction](#introduction)
 2. [Contributing](#contributing)
 3. [Developing](#developing)
-4. [Others](#others)
+4. [Canadianness](#canadianness)
+5. [Others](#others)
 
 ## Introduction
 
@@ -43,7 +44,19 @@ I used shell scripts to automatically download and format data from [Overpass AP
 
 ## Contributing
 
-This is my personal project, but if you would like to contribute, or raise any concerns/issues, I will be glad to take it into consideration! For that, please create a new issue in this repository.
+Please check out [CONTRIBUTING.md](CONTRIBUTING.md) on how to contribute to this project.
+
+## Canadianness
+
+To let the users know which businesses are Canadian, I have used a "Canadianness" scale, a number from 1 to 3.
+
+I do not have a clear definition each of these categories, but here is my best justification for putting a company in one of those 3 categories.
+
+- 3: The company is fully Canadian, or its parent company is fully Canadian.
+- 2: The company is not Canadian, or partially Canadian. Or it has manufacturing facilities in Canada.
+- 1: The company is not Canadian, nor does it have any manufacturing facilities in Canada.
+
+Please note that the information I have written down may be completely inaccurate. If you think I am wrong, please check out [CONTRIBUTING.md](CONTRIBUTING.md) to see what you can do to help!
 
 ## Others
 
