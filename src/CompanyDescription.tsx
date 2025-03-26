@@ -1,53 +1,113 @@
 import { useContext } from "react";
-import brandData from "../data/shops.json";
 import { ModalContext } from "./modals/ModalContext";
-const brand: Record<string, Record<string, string | number>> = brandData;
+import { ShopDescription } from "./types";
+import { getShopDescription } from "./util";
 
 function Description({ currShop }: { currShop: string }) {
   if (currShop === "hello") {
     return <HelloDescription />;
   }
-  if (currShop in brand) {
-    return <CompanyDescription currShop={currShop} />;
-  }
-  return <GenericDescription currShop={currShop} />;
+  const currShopDescription: ShopDescription | undefined =
+    getShopDescription(currShop);
+  return (
+    <div className="p-3 flex flex-col gap-2">
+      {currShopDescription === undefined ? (
+        <GenericDescription currShop={currShop} />
+      ) : (
+        <CompanyDescription
+          currShop={currShop}
+          currShopDescription={currShopDescription}
+        />
+      )}
+    </div>
+  );
 }
 
 function GenericDescription({ currShop }: { currShop: string }) {
   return (
-    <img
-      className="h-72 mx-auto max-h-64 object-scale-down"
-      crossOrigin="anonymous"
-    />
+    <>
+      <h3 className="text-3xl">{currShop}</h3>
+      <hr className="border-gray-700" />
+      <NoImageFound />
+
+      <p className="mt-6">
+        This shop is not in our database, please help us improve the website by{" "}
+        <span>
+          <a
+            className="cursor-pointer underline"
+            href="https://github.com/alexsohn1126/CanuckCarto"
+          >
+            contributing!
+          </a>
+        </span>
+      </p>
+    </>
   );
 }
 
-function CompanyDescription({ currShop }: { currShop: string }) {
-  const companyName = brand.shopToCompany[currShop];
-  const companyObj =
-    companyName === undefined ? brand.notFound : brand[companyName];
+function NoImageFound() {
   return (
-    <div className="description p-3 flex flex-col gap-2">
-      <h3 className="text-3xl">{currShop}</h3>
-      <hr className="border-gray-700" />
+    <>
       <img
         className="h-72 mx-auto max-h-64 object-scale-down"
-        src={companyObj["imageFile"]}
+        src="logo.png"
         crossOrigin="anonymous"
       />
-      <p
-        className="text-[10px] text-gray-500"
-        dangerouslySetInnerHTML={{ __html: companyObj["imageAttribution"] }}
-      />
-      <p className="mt-6">{companyObj["description"]}</p>
+      <p className="text-[10px] text-gray-500">
+        No image available for this brand, if you could take add a picture of
+        this store to{" "}
+        <span>
+          <a href="https://commons.wikimedia.org/wiki/Main_Page">
+            Wikimedia Commons
+          </a>
+        </span>
+        , that would be amazing!
+      </p>
+    </>
+  );
+}
+
+function CompanyDescription({
+  currShop,
+  currShopDescription,
+}: {
+  currShop: string;
+  currShopDescription: ShopDescription;
+}) {
+  return (
+    <>
+      <h3 className="text-3xl">{currShop}</h3>
+      <hr className="border-gray-700" />
+      {typeof currShopDescription.imageFile === "string" &&
+      typeof currShopDescription.imageAttribution === "string" ? (
+        <>
+          <img
+            className="h-72 mx-auto max-h-64 object-scale-down"
+            src={currShopDescription["imageFile"]}
+            crossOrigin="anonymous"
+          />
+          <p
+            className="text-[10px] text-gray-500"
+            dangerouslySetInnerHTML={{
+              __html: currShopDescription["imageAttribution"],
+            }}
+          />
+        </>
+      ) : (
+        <NoImageFound />
+      )}
+      <p className="mt-6">{currShopDescription["description"]}</p>
       <p className="text-xs text-gray-500">
-        Text content adapted from Wikipedia (CC BY-SA 4.0).
+        Text content adapted from:
         <br />
-        <a className="text-[10px]" href={companyObj["source"]}>
-          Wikipedia article for {companyName}
+        <a
+          className="underline cursor-pointer"
+          href={currShopDescription["source"]}
+        >
+          Source (click here)
         </a>
       </p>
-    </div>
+    </>
   );
 }
 
@@ -61,7 +121,7 @@ function HelloDescription() {
       />
       <h3 className="text-3xl mx-auto mt-5 mb-8">CanuckCarto</h3>
       <p>
-        Welcome to CanuckCarto! I have compiled a map of american businesses in
+        Welcome to CanuckCarto! I have compiled a map of various businesses in
         Canada.
       </p>
       <p>
@@ -69,18 +129,14 @@ function HelloDescription() {
         in Ottawa region, or remote.
         <br />
         If you are looking for a software developer, please click the linkedin
-        logo below, or contact me directly at{" "}
-        <a href="mailto:alexsohn1126@gmail.com" className="underline">
-          alexsohn1126@gmail.com
-        </a>
-        !
+        logo below to contact me!
       </p>
       <p>
         If you like this website, please consider donating by clicking{" "}
         <img src="kofi-mark.svg" className="inline w-6 h-6" /> button below.
       </p>
       <p>
-        If you have techical issues with the website, please raise an issue at
+        If you have technical issues with the website, please raise an issue at
         this{" "}
         <a
           href="https://github.com/alexsohn1126/CanuckCarto/issues"
