@@ -14,7 +14,6 @@ const cluster = new Supercluster({
 });
 
 const features = processedData["features"] as PointFeature<AnyProps>[];
-console.log(features[0]);
 cluster.load(features);
 
 function isBBox(value: unknown): value is [number, number, number, number] {
@@ -26,9 +25,8 @@ function isBBox(value: unknown): value is [number, number, number, number] {
 }
 
 app.post("/api/clusters/", (req: Request, res: Response) => {
-  console.log(req.body);
   const bbox = req.body?.bbox;
-  const zoom = req.body?.zoom;
+  const zoom = Math.round(req.body?.zoom);
 
   if (bbox === undefined || zoom === undefined) {
     res.status(400);
@@ -36,7 +34,7 @@ app.post("/api/clusters/", (req: Request, res: Response) => {
     return;
   }
 
-  if (!isBBox(bbox) || !Number.isInteger(zoom)) {
+  if (!isBBox(bbox) || Number.isNaN(zoom)) {
     res.status(400);
     res.send({
       error: "Invalid bbox or zoom... Are you messing around with my api?",
@@ -46,7 +44,6 @@ app.post("/api/clusters/", (req: Request, res: Response) => {
 
   const resCluster = cluster.getClusters(bbox, zoom);
   res.send(resCluster);
-  console.log("yep thats right");
 });
 
 app.listen(port, () => {

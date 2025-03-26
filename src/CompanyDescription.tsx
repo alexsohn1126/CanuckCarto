@@ -1,15 +1,32 @@
 import { useContext } from "react";
-import brandData from "../data/american_shops.json";
+import brandData from "../data/shops.json";
 import { ModalContext } from "./modals/ModalContext";
-const brand: Record<string, Record<string, string>> = brandData;
+const brand: Record<string, Record<string, string | number>> = brandData;
 
 function Description({ currShop }: { currShop: string }) {
-  const companyName = brand["shopToCompany"][currShop];
+  if (currShop === "hello") {
+    return <HelloDescription />;
+  }
+  if (currShop in brand) {
+    return <CompanyDescription currShop={currShop} />;
+  }
+  return <GenericDescription currShop={currShop} />;
+}
+
+function GenericDescription({ currShop }: { currShop: string }) {
+  return (
+    <img
+      className="h-72 mx-auto max-h-64 object-scale-down"
+      crossOrigin="anonymous"
+    />
+  );
+}
+
+function CompanyDescription({ currShop }: { currShop: string }) {
+  const companyName = brand.shopToCompany[currShop];
   const companyObj =
-    companyName === undefined ? brand["notFound"] : brand[companyName];
-  return currShop === "" ? (
-    <HelloDescription />
-  ) : (
+    companyName === undefined ? brand.notFound : brand[companyName];
+  return (
     <div className="description p-3 flex flex-col gap-2">
       <h3 className="text-3xl">{currShop}</h3>
       <hr className="border-gray-700" />
@@ -63,8 +80,8 @@ function HelloDescription() {
         <img src="kofi-mark.svg" className="inline w-6 h-6" /> button below.
       </p>
       <p>
-        If there is an issue, technical or informational, or would like me to
-        add more american companies, please raise an issue at this{" "}
+        If you have techical issues with the website, please raise an issue at
+        this{" "}
         <a
           href="https://github.com/alexsohn1126/CanuckCarto/issues"
           className="underline"
@@ -75,8 +92,8 @@ function HelloDescription() {
         .
       </p>
       <p className="text-xs text-gray-500">
-        This site shares locations of American businesses in Canada. I aim to
-        inform, not endorse or discourage visits. Learn more in the{" "}
+        This site shares locations of many different businesses in Canada. I aim
+        to inform, not endorse or discourage visits. Learn more in the{" "}
         <span
           onClick={() => setActiveModal("disclaimer")}
           className="underline cursor-pointer"

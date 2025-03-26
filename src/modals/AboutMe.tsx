@@ -16,7 +16,7 @@ function AboutMe({ onClose }: { onClose: () => void }) {
       <figure>
         <img className="rounded-2xl shadow" src="hami.jpg" />
         <figcaption className="text-xs text-gray-500 mt-2 mb-6">
-          This is my cat, Hami!
+          Meet my cat, Hami!
         </figcaption>
       </figure>
 

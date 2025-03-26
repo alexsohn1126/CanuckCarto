@@ -1,0 +1,1112 @@
+{
+  "shopToCompany": {
+    "American Eagle Outfitters": "American Eagle Outfitters",
+    "Applebee's": "Applebee's",
+    "Arby's": "Arby's",
+    "Banana Republic": "Banana Republic",
+    "Baskin-Robbins": "Baskin-Robbins",
+    "Bath & Body Works": "Bath & Body Works",
+    "Best Buy": "Best Buy",
+    "Best Buy Express": "Best Buy",
+    "Burger King": "Burger King",
+    "Carl's Jr.": "Carl's Jr.",
+    "Chevron": "Chevron",
+    "Chili's": "Chili's",
+    "Chipotle": "Chipotle",
+    "Costco": "Costco",
+    "Co-op": "Federated Co-operatives",
+    "Crumbl Cookies": "Crumbl Cookies",
+    "Dairy Queen": "Dairy Queen",
+    "Domino's": "Domino's Pizza",
+    "Esso": "Esso",
+    "Five Guys": "Five Guys",
+    "Foot Locker": "Foot Locker",
+    "Gap Outlet": "GAP",
+    "Gap Factory": "GAP",
+    "Gap": "GAP",
+    "H&R Block": "H&R Block",
+    "Home Depot Garden Centre": "The Home Depot",
+    "The Home Depot Garden Centre": "The Home Depot",
+    "The Home Depot Garden Center": "The Home Depot",
+    "HomeSense": "HomeSense",
+    "KFC": "KFC",
+    "Levi's": "Levi's",
+    "Little Caesars": "Little Caesars",
+    "Marshalls": "Marshalls",
+    "McDonald's": "McDonald's",
+    "Michaels": "Michaels",
+    "Mobil": "Mobil",
+    "Nike": "Nike",
+    "Old Navy": "Old Navy",
+    "Patagonia": "Patagonia",
+    "Pizza Hut": "Pizza Hut",
+    "Quiznos": "Quiznos",
+    "Rona": "Rona",
+    "Shake Shack": "Shake Shack",
+    "Staples": "Staples",
+    "Shell Select": "Shell",
+    "Starbucks": "Starbucks",
+    "Subway": "Subway",
+    "Taco Bell": "Taco Bell",
+    "Tire & Lube Express": "Walmart",
+    "Victoria's Secret": "Victoria's Secret",
+    "Walmart": "Walmart",
+    "Walmart Pharmacy": "Walmart",
+    "Walmart Photo Centre": "Walmart",
+    "Walmart Supercentre": "Walmart",
+    "Walmart Vision Centre": "Walmart",
+    "Walmart Wireless": "Walmart",
+    "Wendy's": "Wendy's",
+    "Petro-Canada": "Petro-Canada",
+    "Winners": "Winners",
+    "Dollarama": "Dollarama",
+    "Thai Express": "Thaï Express"
+  },
+  "": {
+    "description": "",
+    "source": "",
+    "canadianness": 3
+  },
+  "Virgin Plus": {
+    "description": "",
+    "source": "",
+    "canadianness": 3
+  },
+  "COBS Bread": {
+    "description": "COBS Bread is owned by Bakers Delight, an Australian-owned multinational bakery franchise chain. It's franchises are locally owned.",
+    "source": "https://en.wikipedia.org/wiki/Bakers_Delight",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Localbakery.jpg/330px-Localbakery.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Localbakery.jpg\">Lucilabraga</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 2
+  },
+  "Your Independent Grocer": {
+    "description": "Your Independent Grocer, also known as \"Independent\", is a supermarket chain in Canada, headquartered in Brampton, Ontario, Canada. It is owned by Loblaws Companies.",
+    "source": "https://en.wikipedia.org/wiki/Your_Independent_Grocer",
+    "canadianness": 3
+  },
+  "Sushi Shop": {
+    "description": "Sushi Shop was acquired by MTY Food Group Inc., a Canadian franchisor and operators of restaurants. Headquartered in Saint-Laurent, Quebec.",
+    "source": "https://en.wikipedia.org/wiki/MTY_Food_Group",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MTY_Food_Group_logo_%282016%29.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:MTY_Food_Group_logo_(2016).svg\">MTY Food Group</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Cash Money": {
+    "description": "Cash Money is a Canadian company, with the headquarter in Toronto, Ontario.",
+    "source": "https://ca.indeed.com/cmp/Cash-Money",
+    "canadianness": 3
+  },
+  "Mazda": {
+    "description": "Mazda North American Operations (MNAO), which includes Mazda Motor of America, Inc., is Mazda Motor Corporation's North American arm. Headquartered in Irvine, California. It does not have any manufacturing plant in Canada.",
+    "source": "https://en.wikipedia.org/wiki/Mazda_North_American_Operations",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/20140726-0047_Irvine.JPG/640px-20140726-0047_Irvine.JPG",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:20140726-0047_Irvine.JPG\">Nandaro</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Jiffy Lube": {
+    "description": "Jiffy Lube International, Inc. is an American chain of automotive oil change specialty shops, subsidiary of Shell since 2002. Headquartered in Houston, Texas.",
+    "source": "https://en.wikipedia.org/wiki/Jiffy_Lube",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/JiffyLubeRichmondHill.jpg/330px-JiffyLubeRichmondHill.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:JiffyLubeRichmondHill.jpg\">Raysonho @ Open Grid Scheduler / Scalable Grid Engine</a>, CC0, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "U-Haul": {
+    "description": "U-Haul Holding Company is an American moving truck, trailer, and self-storage rental company, based in Phoenix, Arizona.",
+    "source": "https://en.wikipedia.org/wiki/U-Haul",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/fb/U-Haul_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:U-Haul_logo.svg\">All-free-download.com</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Hasty Market": {
+    "description": "Hasty Market is a convenience store franchise, first opened in Hamilton, Ontario. Canadian Owned and locally operated.",
+    "source": "https://hastymarketcorp.com/about-us/",
+    "canadianness": 3
+  },
+  "Mucho Burrito": {
+    "description": "Mucho Burrito is a Mexican restaurant, now acquired by MTY Food Group Inc., a Canadian franchisor operator.",
+    "source": "https://en.wikipedia.org/wiki/MTY_Food_Group",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/d/d3/MTY_Food_Group_logo_%282016%29.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:MTY_Food_Group_logo_(2016).svg\">MTY Food Group</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Great Clips": {
+    "description": "Great Clips, Inc. is an American hair salon chain, headquartered in Bloomington, Minnesota.",
+    "source": "https://en.wikipedia.org/wiki/Great_Clips",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/7/77/GreatClipsLogo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:GreatClipsLogo.svg\">Great Clips</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "EB Games": {
+    "description": "EB Games was an American computer and video games retailer. Now, they have been converted to Gamestop, an American company headquartered in Texas.",
+    "source": "https://en.wikipedia.org/wiki/EB_Games",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Logo_of_EB_Games.png/960px-Logo_of_EB_Games.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Logo_of_EB_Games.png\">GameStop Corporation</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Chrysler": {
+    "description": "Chrysler is an American automotive company, but in Canada, there are many plants owned by Stellantis Canada, producing vehicles in Canada.",
+    "source": "https://en.wikipedia.org/wiki/Stellantis_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/d/dd/Stellantis.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Stellantis.svg\">Original: Unknown Vector:  Sushant savla</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 2
+  },
+  "Midas": {
+    "description": "Midas International, LLC is an American chain of automotive service centers headquartered in Palm Beach Gardens, Florida.",
+    "source": "https://en.wikipedia.org/wiki/Midas_(automotive_service)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/6/66/Midas_Logo.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Midas_Logo.png\">Midas</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "St-Hubert": {
+    "description": "St-Hubert BBQ Ltd. is a chain of Canadian casual dining restaurants best known for its rotisserie chicken. Headquartered in Laval, Quebec, Canada.",
+    "source": "https://en.wikipedia.org/wiki/St-Hubert",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Automobiles_de_livraison_St-Hubert.jpg/330px-Automobiles_de_livraison_St-Hubert.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Automobiles_de_livraison_St-Hubert.jpg\">Laurent Bélanger</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Quesada": {
+    "description": "Quesada is a Canadian Mexican restaurant, owned by Foodtastic, a Canadian restaurant holding company.",
+    "source": "https://foodtastic.ca/our-brands/quesada/",
+    "canadianness": 3
+  },
+  "Mr. Lube": {
+    "description": "ML Royalties LP (doing business as Mr. Lube) is a Canadian chain of automotive service centres, specializing in oil changes and other scheduled maintenance. It is headquartered in Richmond, BC, and Mississauga, Ontario.",
+    "source": "https://en.wikipedia.org/wiki/Mr._Lube",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Mr_Lube_logo_RGB.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Mr_Lube_logo_RGB.jpg\">PNG construction</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Kia": {
+    "description": "Kia Canada is a company formed in 1999 as a subsidiary of Kia Motors Corporation serving the Canadian market. It does not own any manufacturing facilities in Canada.",
+    "source": "https://en.wikipedia.org/wiki/Kia",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/b6/KIA_logo3.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:KIA_logo3.svg\">Kia Corporation</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Chevrolet": {
+    "description": "Chevrolet is an American automobile division of the manufacturer General Motors. Chevrolet has numerous factories in Canada, including a Silverado assembly line in Oshawa, Ontario.",
+    "source": "https://en.wikipedia.org/wiki/Chevrolet",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Chevrolet_bowtie_2023.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Chevrolet_bowtie_2023.svg\">Chevrolet</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 2
+  },
+  "Bentley": {
+    "description": "Bentley is a Canadian luggage and travel accessory shop. It is headquartered in Montreal, Quebec, Canada.",
+    "source": "https://rocketreach.co/bentley-co-ltd-profile_b5d6b2aaf42e333f",
+    "canadianness": 3
+  },
+  "Carter's": {
+    "description": "Carter's, Inc. is a major American designer and marketer of children's apparel. It is headquartered in Atlanta, Georgia, U.S.",
+    "source": "https://en.wikipedia.org/wiki/Carter%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/84/Carter%27s_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Carter%27s_logo.svg\">Carter&#039;s, Inc.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Kal Tire": {
+    "description": "Kal Tire is a wholly owned Canadian company based in Vernon, British Columbia, where it was founded in 1953 by Thomas J. Foord OBC and Jim Lochhead.",
+    "source": "https://en.wikipedia.org/wiki/Kal_Tire",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Kal-Tire-Logo.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Kal-Tire-Logo.png\">KTSocialMedia</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Hakim Optical": {
+    "description": "Hakim Optical Lab Ltd. is a Canadian optical chain, the largest privately owned optical chain in Canada. Headquartered in Toronto, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Hakim_Optical",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Hakim_Optical_Logo.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Hakim_Optical_Logo.png\">Hakim Optical</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Real Canadian Superstore": {
+    "description": "Real Canadian Superstore is a chain of supermarkets owned by Canadian food retailing giant Loblaw Companies.",
+    "source": "https://en.wikipedia.org/wiki/Real_Canadian_Superstore",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Real_Canadian_Superstore_Lansdowne_Place.jpg/330px-Real_Canadian_Superstore_Lansdowne_Place.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Real_Canadian_Superstore_Lansdowne_Place.jpg\">Rowanlovescars</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Pizza Nova": {
+    "description": "Pizza Nova Take Out Ltd., doing business as Pizza Nova, is a Canadian franchise chain of pizza restaurants headquartered in Scarborough, Ontario.",
+    "source": "https://en.wikipedia.org/wiki/Pizza_Nova",
+    "canadianness": 3
+  },
+  "Nissan": {
+    "description": "Nissan Motor Co., Ltd. is a Japanese multinational automobile manufacturer headquartered in Yokohama, Kanagawa, Japan. There are no Nissan factories in Canada.",
+    "source": "https://en.wikipedia.org/wiki/Nissan",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Nissan_Motor_Corporation_2020_logo-local_file.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Nissan_Motor_Corporation_2020_logo-local_file.svg\">Nissan Motor Corporation</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Osmow's": {
+    "description": "Osmow's Shawarma is a franchised quick-serve shawarma restaurant. It was founded in 2001 by Sam Osmow.",
+    "source": "https://en.wikipedia.org/wiki/List_of_Canadian_restaurant_chains#Osmow's_Shawarma",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Osmows_Peterborough.jpg/640px-Osmows_Peterborough.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Osmows_Peterborough.jpg\">Andrepoiy</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "FreshCo": {
+    "description": "FreshCo Ltd. is a Canadian chain of discount supermarkets owned by Sobeys. Headquartered in Mississauga, Ontario and Stellarton, Nova Scotia.",
+    "source": "https://en.wikipedia.org/wiki/FreshCo",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/fa/FreshCo_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:FreshCo_logo.svg\">FreshCo</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "La Vie en Rose": {
+    "description": "Boutique La Vie en Rose Inc. is a Canadian lingerie retailer headquartered in Montreal, Quebec, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Boutique_La_Vie_en_Rose",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/ac/La_Vie_en_Rose_logo.gif",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:La_Vie_en_Rose_logo.gif\">La Vie en Rose</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Papa John's": {
+    "description": "Papa John's International, Inc., trading as Papa Johns, is an American pizza restaurant chain. Headquartered in Cumberland, Georgia, U.S.",
+    "source": "https://en.wikipedia.org/wiki/Papa_John%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/92/Papa_Johns_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Papa_Johns_logo.svg\">Papa Johns</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "On The Run": {
+    "description": "On the Run is a flagship convenience store brand developed by ExxonMobil. In Canada, it is now owned by Parkland Corporation, a Canadian company,",
+    "source": "https://en.wikipedia.org/wiki/On_the_Run_(convenience_store)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Ontherun_brand_logo.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ontherun_brand_logo.png\">https://www.ontherun.com/about-us/</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Crevier": {
+    "description": "Crevier is a Canadian family-owned gas and lubricant distributor. It has sold its fuel division to Parkland Corporation, a Canadian company.",
+    "source": "https://www.newswire.ca/news-releases/crevier-group-announces-the-sale-of-its-fuel-division-and-convenience-stores-to-parkland-865133355.html",
+    "canadianness": 3
+  },
+  "Sherwin-Williams": {
+    "description": "The Sherwin-Williams Company is an American paints and coatings company based in Cleveland, Ohio.",
+    "source": "https://en.wikipedia.org/wiki/Sherwin-Williams",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Sherwin-Williams_Store_in_Eugene%2C_Oregon_%2852021632131%29.jpg/320px-Sherwin-Williams_Store_in_Eugene%2C_Oregon_%2852021632131%29.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Sherwin-Williams_Store_in_Eugene,_Oregon_(52021632131).jpg\">Rick Obst</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Food Basics": {
+    "description": "Food Basics Ltd. is a Canadian supermarket chain owned by Metro Inc. It is headquartered in Toronto, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Food_Basics",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Food_Basics_Upper_Middle.jpg/320px-Food_Basics_Upper_Middle.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Food_Basics_Upper_Middle.jpg\">Britcouple007&#039;s Cam</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "BarBurrito": {
+    "description": "BarBurrito is a Canadian Tex-Mex restaurant chain, first opened in Toronto, Ontario, Canada, in 2005.",
+    "source": "https://www.barburrito.ca/about/",
+    "canadianness": 3
+  },
+  "Sonic": {
+    "description": "Énergies Sonic, commonly known as Sonic, is a Quebec based company with more than 120 gas stations across the province.",
+    "source": "https://energiesonic.com/",
+    "canadianness": 3
+  },
+  "BC Liquor Store": {
+    "description": "BC Liquor Stores are a chain of government-owned and operated retail outlets operated by the British Columbia Liquor Distribution Branch to distribute alcoholic beverages in the province of British Columbia, Canada.",
+    "source": "https://en.wikipedia.org/wiki/BC_Liquor_Stores",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/d/d6/BC_Liquor_Store_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:BC_Liquor_Store_logo.svg\">Original design : BC Liquor Store SVG Trace : Jon Kolbert (talk · contribs)</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "PetSmart": {
+    "description": "PetSmart Inc. is a privately held American chain of pet superstores. ",
+    "source": "https://en.wikipedia.org/wiki/PetSmart",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/0/01/PetSmart.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:PetSmart.svg\">PetSmart</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Value Village": {
+    "description": "Savers Value Village Inc. is a publicly held, for-profit thrift store retailer headquartered in Bellevue, Washington, United States. It is more commonly known as Value Village in Canada.",
+    "source": "https://en.wikipedia.org/wiki/Savers",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Savers-logo.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Savers-logo.png\">Savers, Inc.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Hyundai": {
+    "description": "Hyundai Auto Canada Inc. is a Canadian regional subsidary of Hyundai, a South Korean car manufacturer. They used to have a manufacturing plant in Canada, but as of March 2025, they do not.",
+    "source": "https://en.wikipedia.org/wiki/Hyundai_Motor_Company",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/4/44/Hyundai_Motor_Company_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Hyundai_Motor_Company_logo.svg\">Hyundai Motor Company</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Global Pet Foods": {
+    "description": "Global Pet Foods is Canada's largest pet specialty retailer. It is headquartered in Brampton, Ontario, Canada.",
+    "source": "https://globalpetfoods.com/",
+    "canadianness": 3
+  },
+  "Maxi": {
+    "description": "Maxi is a discount grocery retailer based in Quebec, Canada. It is a division of Loblaw Companies and the largest of Loblaw's Quebec supermarket chains.",
+    "source": "https://en.wikipedia.org/wiki/Maxi_(Canadian_supermarket)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/2/29/Maxi_%28Canadian_supermarket%29_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Maxi_(Canadian_supermarket)_logo.svg\">Maxi (Canadian supermarket)</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Koodo": {
+    "description": "Koodo Mobile is a Canadian mobile flanker brand started by Telus in 2008. It is headquartered in Toronto, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Koodo_Mobile",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Koodo_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Koodo_logo.svg\">Koodo Mobile</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Panago": {
+    "description": "Panago is a privately held Canadian pizza delivery and takeout chain. It is headquartered in Abbotsford, British Columbia, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Panago",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/84/Panago_wordmark_%282021%29.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Panago_wordmark_(2021).svg\">Panago</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Fido": {
+    "description": "Fido Solutions Inc. is a Canadian mobile network operator owned by Rogers Communications. It hs headquartered in Montreal, Quebec, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Fido_(wireless_carrier)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/b1/Fido_Solutions_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Fido_Solutions_logo.svg\">Original: Fido Solutions Vector:  Masumrezarock100</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Honda": {
+    "description": "Honda Canada Inc. is the Canadian regional subsidiary of the Honda Motor Company. It has been manufacturing cars since '86, and headquartered in Markham, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Honda_Canada_Inc.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/1/12/Honda_Canada.webp",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Honda_Canada.webp\">Yosoystevee</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 2
+  },
+  "Mary Brown's": {
+    "description": "Mary Brown's Chicken, is a Canadian fast food restaurant, specializing in fried chicken. It is headquartered in Markham, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Mary_Brown%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Marybrowns-2021-logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Marybrowns-2021-logo.svg\">BridgeDigitalInc</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Mac's": {
+    "description": "Mac's Convenience Stores (Mac's) was a chain of convenience stores in Canada. It is owned by Alimentation Couche-Tard, a Canadian company, and is being phased out to rebrand as Circle K.",
+    "source": "https://en.wikipedia.org/wiki/Mac%27s_Convenience_Stores",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/MacsMalvernTownCentre2.jpg/320px-MacsMalvernTownCentre2.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:MacsMalvernTownCentre2.jpg\">Raysonho @ Open Grid Scheduler / Grid Engine</a>, CC0, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Save-On-Foods": {
+    "description": "Save-On-Foods is a chain of supermarkets located across Western Canada, owned by the Pattison Food Group, a BC-based company. Headquartered in Langley, British Columbia, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Save-On-Foods",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Save_On_Foods_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Save_On_Foods_Logo.svg\">See page for author</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Toyota": {
+    "description": "Toyota Canada Inc. is the distributor of Toyota and Lexus vehicles in Canada. It is owned mostly by the Japanese Toyota Motor Coporation, but Toyota operates manufacturing and engineering in Canada.",
+    "source": "https://en.wikipedia.org/wiki/Toyota_Canada_Inc.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/d/df/Toyota_Motor_North_America_logo_%282019%29.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Toyota_Motor_North_America_logo_(2019).svg\">™/®Toyota Motor Corporation</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 2
+  },
+  "Sport Chek": {
+    "description": "Sport-Chek International 2000 Ltd. is a Canadian retailer of sporting clothing and sports equipment. It is a subsidiary of Canadian Tire, and headquartered in Calgary, Alberta, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Sport_Chek",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/92/SportChek_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:SportChek_logo.svg\">Forzani Group Ltd</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Reitmans": {
+    "description": "Reitmans Canada Ltd. is a Canadian retailing company, specializing in women's clothing. Headquartered in Montreal, Quebec, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Reitmans",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Reitmans_corporate_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Reitmans_corporate_logo.svg\">Reitmans</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Pita Pit": {
+    "description": "Pita Pit is a quick-service restaurant franchise serving pita sandwiches. The Canada branch is owned by Foodtastic, a Canadian company. Headquartered in Kingston, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Pita_Pit",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/fa/PitaPit_logo.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:PitaPit_logo.jpg\">Pita Pit</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Safeway": {
+    "description": "Safeway is a Canadian supermarket chain. Though it was owned by Safeway Inc., an American company, it is now owned by Sobeys Inc. Headquartered in Calgary, Alberta, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Safeway_(Canada)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Safeway_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Safeway_Logo.svg\">Converted from PDF at safeway.com</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Freshii": {
+    "description": "Freshii is a Canadian fast casual restaurant franchise, owned by Foodtastic Inc., a Canadian company. Headquartered in Toronto, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Freshii",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Freshii_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Freshii_logo.svg\">SVG trace: Adrian Gazzoli (talk· contribs)</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Foodland": {
+    "description": "Sobeys, a Canadian company, operates the smaller grocery store Foodland chain, mainly in rural areas of Newfoundland and Labrador, Nova Scotia, New Brunswick and Ontario.",
+    "source": "https://en.wikipedia.org/wiki/Sobeys#Foodland",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Foodland_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Foodland_Logo.svg\">sobeys</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Fas Gas": {
+    "description": "Fas Gas Plus is owned by Parkland Corporation, a company based in Calgary, Alberta, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Parkland_Corporation",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/9a/2024_08_23_IMG_5446.JPG",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:2024_08_23_IMG_5446.JPG\">Tanbir M-05</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Pioneer": {
+    "description": "Pioneer Energy LP (formerly Pioneer Petroleums) is a gas retailer and convenience store operator, with locations in Ontario, Canada. Founded by Murray Hogarth in 1956, it is headquartered in Burlington, Ontario.",
+    "source": "https://en.wikipedia.org/wiki/Pioneer_Energy",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/JohnSouthHamiltonB.JPG/330px-JohnSouthHamiltonB.JPG",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:JohnSouthHamiltonB.JPG\">Nhl4hamilton (Rick Cordeiro)</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Ardene": {
+    "description": "Ardene is a family-owned value fashion retailer based in Montreal, Quebec, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Ardene",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/2/24/BlkAsset_1.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:BlkAsset_1.png\">Ardene corporate head office</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Benjamin Moore": {
+    "description": "Benjamin Moore & Co., also known as Benjamin Moore, is an American manufacturer of paints, stains, and other architectural coatings. Headquartered in Montvale, New Jersey, U.S.",
+    "source": "https://en.wikipedia.org/wiki/Benjamin_Moore_%26_Co.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Benjamin_Moore_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Benjamin_Moore_logo.svg\">Benjamin Moore &amp; Co.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Second Cup": {
+    "description": "Second Cup is a Canadian coffeehouse chain and retailer of specialty coffee headquartered in Mississauga, Ontario.",
+    "source": "https://en.wikipedia.org/wiki/Second_Cup",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Second-cup-logo-1.webp",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Second-cup-logo-1.webp\">JosquinFrascadore</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Dollar Tree": {
+    "description": "Dollar Tree, Inc. is an American multi-price-point chain of discount variety stores. Headquartered in Chesapeake, Virginia.",
+    "source": "https://en.wikipedia.org/wiki/Dollar_Tree",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Dollar_Tree_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Dollar_Tree_logo.svg\">Dollar Tree Inc.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Thaï Express": {
+    "description": "The Thaï Express brand is owned by the MTY Food Group, a Canadian franchisor and operator. Headquartered in Montreal, Quebec, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Tha%C3%AF_Express",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/ThaiExpressRutherfordMarketPlaceVaughan.jpg/640px-ThaiExpressRutherfordMarketPlaceVaughan.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:ThaiExpressRutherfordMarketPlaceVaughan.jpg\">Raysonho @ Open Grid Scheduler / Scalable Grid Engine</a>, CC0, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "The UPS Store": {
+    "description": "The UPS Store is a franchised subsidiary of United Parcel Service, headquartered in the U.S.",
+    "source": "https://en.wikipedia.org/wiki/The_UPS_Store",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3a/The_UPS_Store_Logo_%28New%29.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:The_UPS_Store_Logo_(New).jpg\">The UPS Store, Inc.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "The Source": {
+    "description": "The Source (Bell) Electronics Inc., doing business as The Source (French: La Source), was a Canadian consumer electronics and cell phone retail chain. However, it is going defunct since Oct 2024, and will be rebranded under Best Buy Express or closed.",
+    "source": "https://en.wikipedia.org/wiki/The_Source_(retailer)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/f9/The_Source_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:The_Source_logo.svg\">The Source</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Swiss Chalet": {
+    "description": "Swiss Chalet is a Canadian chain of casual dining restaurants founded in 1954, and headquarterded in Toronto, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Swiss_Chalet",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Swiss_Chalet_wordmark.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Swiss_Chalet_wordmark.svg\">Swiss Chalet</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Sleep Country": {
+    "description": "Sleep Country Canada Holdings Inc. is a Canadian mattress retailer and #1 specialty retailer of Canada with over 250 stores. Headquartered in Toronto, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Sleep_Country_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Sleep_Country_Canada_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Sleep_Country_Canada_Logo.svg\">Sleep Country Canada.The original uploader was Mparrault at English Wikipedia.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Giant Tiger": {
+    "description": "Giant Tiger Stores Limited is a Canadian discount store chain which operates over 260 stores across Canada. Headquartered in Ottawa, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Giant_Tiger",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Giant_Tiger_store_in_Hamilton%2C_Ontario.jpg/320px-Giant_Tiger_store_in_Hamilton%2C_Ontario.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Giant_Tiger_store_in_Hamilton,_Ontario.jpg\">Nhl4hamilton|Chit-Chat</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "M&M Food Market": {
+    "description": "M&M Food Market (French: Les aliments M&M), formerly known as M&M Meat Shops, is a Canadian frozen food retail chain. Headquartered in Kitchener, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/M%26M_Food_Market",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/M%26MFoodMarketNorthgateCentre.jpg/320px-M%26MFoodMarketNorthgateCentre.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:M%26MFoodMarketNorthgateCentre.jpg\">Rowanlovescars</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Mr. Sub": {
+    "description": "Mr. Sub (stylized MR.SUB), called Mr. Submarine before the 1990s, is a Canadian chain of over 200 submarine sandwich shops, headquartered in Toronto, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Mr._Sub",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/7/76/Mr._Sub_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Mr._Sub_logo.svg\">Mr. Sub</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Freedom Mobile": {
+    "description": "Freedom Mobile (formerly Wind Mobile) is a Canadian wireless telecommunications provider owned by Québecor, a Canadian company.",
+    "source": "https://en.wikipedia.org/wiki/Freedom_Mobile",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/5/53/Freedom_Mobile_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Freedom_Mobile_logo.svg\">Freedom Mobile</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "NAPA Auto Parts": {
+    "description": "The National Automotive Parts Association (NAPA), is an American retailers' cooperative distributing automotive replacement parts, accessories, and service items throughout North America. It is based in Atlanta, Georgia, U.S.",
+    "source": "https://en.wikipedia.org/wiki/NAPA_Auto_Parts",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/b7/NAPA_Auto_Parts_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:NAPA_Auto_Parts_logo.svg\">National Automotive Parts Association</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "First Choice Haircutters": {
+    "description": "First Choice Haircutters is a Canadian hair salon company headquartered in Canada. However, it is a subsidiary of Regis Corporation, an American hair salon chain.",
+    "source": "https://en.wikipedia.org/wiki/First_Choice_Haircutters",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/FirstChoiceHaircuttersSmartCentresVaughan.jpg/330px-FirstChoiceHaircuttersSmartCentresVaughan.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:FirstChoiceHaircuttersSmartCentresVaughan.jpg\">Raysonho @ Open Grid Scheduler / Scalable Grid Engine</a>, CC0, via Wikimedia Commons",
+    "canadianness": 2
+  },
+  "Bulk Barn": {
+    "description": "Bulk Barn Foods Limited (Bulk Barn) is Canada's largest bulk foods store. Headquartered in Aurora, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Bulk_Barn",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/4/49/Bulk_Barn_Logo.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Bulk_Barn_Logo.jpg\">Bulk Barn Corporation</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Sobeys": {
+    "description": "Sobeys Inc.[4] is a national supermarket chain in Canada with over 1,500 stores operating under a variety of banners. Headquartered in Stellarton, Nova Scotia.",
+    "source": "https://en.wikipedia.org/wiki/Sobeys",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/2/21/Sobeys_Corporate_Logo_2024.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Sobeys_Corporate_Logo_2024.svg\">Sobeys</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "No Frills": {
+    "description": "No Frills (currently styled NOFRILLS and formerly styled nofrills) is a Canadian chain of discount supermarkets.",
+    "source": "https://en.wikipedia.org/wiki/No_Frills_(grocery_store)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/New_%27No_Frills%27_grocery_store_in_the_old_Toronto_Sun_building_-d.jpg/330px-New_%27No_Frills%27_grocery_store_in_the_old_Toronto_Sun_building_-d.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:New_%27No_Frills%27_grocery_store_in_the_old_Toronto_Sun_building_-d.jpg\">Geo Swan</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Ford": {
+    "description": "Ford Motor Company is an American multinational automobile manufacturer headquartered in Dearborn, Michigan, United States.",
+    "source": "https://en.wikipedia.org/wiki/Ford_Motor_Company",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Ford_logo_flat.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Ford_logo_flat.svg\">Ford Motor Company</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Harvey's": {
+    "description": "Harvey's is a fast food restaurant chain operating in Canada, owned by Recipe Unlimited, a Canadaian company.",
+    "source": "https://en.wikipedia.org/wiki/Harvey%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/648DixonHarveys.jpg/330px-648DixonHarveys.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:648DixonHarveys.jpg\">Raysonho @ Open Grid Scheduler / Grid Engine</a>, CC0, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Telus": {
+    "description": "Telus Corporation is a Canadian national telecommunications company, headquartered in Vancouver, British Columbia, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Telus",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/6/63/Telus-Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Telus-Logo.svg\">Telus</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Booster Juice": {
+    "description": "Booster Juice Inc. is a Canadian chain of juice and smoothie bars founded in 1999. Headquartered in Edmonton, Alberta, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Booster_Juice",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Timothy%27s_is_gone_%285873360245%29.jpg/330px-Timothy%27s_is_gone_%285873360245%29.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Timothy%27s_is_gone_(5873360245).jpg\">Mack Male from Edmonton, AB, Canada</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Money Mart": {
+    "description": "Money Mart Financial Services is a financial services company. It is headquartered in Toronto, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Money_Mart",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Money_Mart_Logo_Transparent.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Money_Mart_Logo_Transparent.png\">Money Mart</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Popeyes": {
+    "description": "Popeyes Louisiana Kitchen, Inc. is an American multinational chain of fried chicken restaurants founded in 1972 in New Orleans and headquartered in Miami.[10] It is currently a subsidiary of Toronto-based Restaurant Brands International, a Canadian-American Company.",
+    "source": "https://en.wikipedia.org/wiki/Popeyes",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/0/0d/Popeyes_Logo_2020.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Popeyes_Logo_2020.svg\">Tucrack (for the svg)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 2
+  },
+  "Mark's": {
+    "description": "Mark's (known as La Ouérasse and L'Équipeur since 1990 in Quebec) is a Canadian clothing and footwear retailer specializing in casual and industrial wear.",
+    "source": "https://en.wikipedia.org/wiki/Mark%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/5/53/MARKS_LOGO_RGB_2020.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:MARKS_LOGO_RGB_2020.png\">Jonwilliams765</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "SAQ": {
+    "description": "The Société des alcools du Québec (SAQ) is a provincial Crown corporation and monopoly in Quebec responsible for the trade of alcoholic beverages, and via subsidiary, cannabis, within the province.",
+    "source": "https://en.wikipedia.org/wiki/Soci%C3%A9t%C3%A9_des_alcools_du_Qu%C3%A9bec",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Succursale_de_la_SAQ_%C3%A0_Roberval01.JPG/640px-Succursale_de_la_SAQ_%C3%A0_Roberval01.JPG",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Succursale_de_la_SAQ_%C3%A0_Roberval01.JPG\">Khayman</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Metro": {
+    "description": "Metro Inc. is a Canadian supermarket chain operating in the provinces of Quebec and Ontario. The company is based in Montreal, Quebec.",
+    "source": "https://en.wikipedia.org/wiki/Metro_Inc.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Metro_Inc._logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Metro_Inc._logo.svg\">Metro Inc.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "IGA": {
+    "description": "IGA is a group of independent grocers in Canada supplied by Sobeys, which franchises the name from IGA, Inc. Acquired by Sobeys.",
+    "source": "https://en.wikipedia.org/wiki/IGA_(Canada)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/93/IGA_%28Qu%C3%A9bec%29_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:IGA_(Qu%C3%A9bec)_logo.svg\">Sobeys Québec Inc.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Rogers": {
+    "description": "Rogers Communications Inc. is a Canadian communications and media company, headquartered in Toronto, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Rogers_Communications",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/7/78/Rogers_Communications_%282015%29.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Rogers_Communications_(2015).svg\">Rogers Communications</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Husky": {
+    "description": "Husky Energy Inc. was a Canadian company engaged in hydrocarbon exploration, headquartered in Calgary, Alberta, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Husky_Energy",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/HuskyGasStationMarkham.jpg/640px-HuskyGasStationMarkham.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:HuskyGasStationMarkham.jpg\">Raysonho @ Open Grid Scheduler / Scalable Grid Engine</a>, CC0, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Bell": {
+    "description": "Bell Canada is a Canadian telecommunications company headquartered in Verdun, Quebec, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Bell_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/91/Bell_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Bell_logo.svg\">Bell Canadawith vectorization by Brett Caven</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Boston Pizza": {
+    "description": "Boston Pizza (BP), is a Canadian multinational restaurant chain that owns and franchises locations in Canada, the United States and Mexico.",
+    "source": "https://en.wikipedia.org/wiki/Boston_Pizza",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Boston_Pizza%2C_le_restaurant_et_sa_terrasse%2C_Centropolis%2C_Laval.jpg/330px-Boston_Pizza%2C_le_restaurant_et_sa_terrasse%2C_Centropolis%2C_Laval.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Boston_Pizza,_le_restaurant_et_sa_terrasse,_Centropolis,_Laval.jpg\">Laurent Bélanger</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Pet Valu": {
+    "description": "Pet Valu Holdings Ltd. is a Canadian pet food and accessory retailer founded in 1976. It is headquartered in Markham, Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Pet_Valu",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/c/c9/Pet_Valu_logo.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Pet_Valu_logo.png\">Pet Valu</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "The Beer Store": {
+    "description": "Brewers Retail Inc., doing business as The Beer Store, is a privately owned chain of retail outlets selling beer and other malt beverages in the province of Ontario, Canada.",
+    "source": "https://en.wikipedia.org/wiki/The_Beer_Store",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/30/BEER_STORE-VER-C_RGB.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:BEER_STORE-VER-C_RGB.jpg\">Nellie825</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Irving": {
+    "description": "Irving Oil Ltd. is a Canadian privately-owned intergenerational gasoline, oil, and natural gas producing and exporting company headquartered in Saint John, New Brunswick, Canada.",
+    "source": "https://en.wikipedia.org/wiki/Irving_Oil",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/c/ca/Irving_Oil.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Irving_Oil.svg\">Irving Oil</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Pizza Pizza": {
+    "description": "Pizza Pizza Ltd. is a franchised Canadian pizza quick-service restaurant with its headquarters in Toronto, Ontario.",
+    "source": "https://en.wikipedia.org/wiki/Pizza_Pizza",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Pizza_Pizza_Northwestern_Mississauga.JPG/593px-Pizza_Pizza_Northwestern_Mississauga.JPG",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Pizza_Pizza_Northwestern_Mississauga.JPG\">BioPub (Tomasz Piwowarek)</a>, <a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC BY-SA 3.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "7-Eleven": {
+    "description": "7-Eleven, Inc. is an American convenience store chain, headquartered in Irving, Texas. It is a wholly owned subsidiary of Seven-Eleven Japan, which in turn is owned by the retail holdings company Seven & I Holdings. ",
+    "source": "https://en.wikipedia.org/wiki/7-Eleven",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/e/e0/7-Eleven_logo_2021.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:7-Eleven_logo_2021.svg\">Seven &amp; I Holdings</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Federated Co-operatives": {
+    "description": "Federated Co-operatives Limited (FCL), operating as Co-op, is a co-operative federation providing procurement and distribution to member co-operatives in Western Canada. It is headquartered at Saskatoon, Saskatchewan.",
+    "source": "https://en.wikipedia.org/wiki/Federated_Co-operatives",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/82/Saskatoon_Co-op_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Saskatoon_Co-op_Logo.svg\">See page for author</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Couche-Tard": {
+    "description": "Alimentation Couche-Tard Inc., or simply Couche-Tard, is a Canadian multinational operator of convenience stores.",
+    "source": "https://en.wikipedia.org/wiki/Alimentation_Couche-Tard",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Alimentation_Couche-Tard_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Alimentation_Couche-Tard_logo.svg\">See page for author</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Home Hardware": {
+    "description": "Home Hardware Stores Ltd. is an independent home improvement retailer located in Canada. Co-founded by Walter Hachborn in 1964, and headquartered in St. Jacobs, Ontario.",
+    "source": "https://en.wikipedia.org/wiki/Home_Hardware",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/5/50/Home_Hardware_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Home_Hardware_Logo.svg\">See page for author</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Circle K": {
+    "description": "Circle K Stores, Inc. is a North American chain of convenience stores headquartered in Tempe, Arizona, and owned by Alimentation Couche-Tard, Inc., based in Laval, Quebec.",
+    "source": "https://en.wikipedia.org/wiki/Circle_K",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Circle_K_logo_2015.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Circle_K_logo_2015.svg\">Circle K</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "LCBO": {
+    "description": "The Liquor Control Board of Ontario (LCBO) is a Crown agency that retails and distributes alcoholic beverages throughout the Canadian province of Ontario.",
+    "source": "https://en.wikipedia.org/wiki/Liquor_Control_Board_of_Ontario",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Liquor_Control_Board_of_Ontario_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Liquor_Control_Board_of_Ontario_logo.svg\">Original Author: Unknown SVG Trace: Jon Kolbert (talk· contribs)</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Ultramar": {
+    "description": "Ultramar is an Eastern Canadian gas and home fuel retailer, with its head office located in Montreal, Quebec",
+    "source": "https://en.wikipedia.org/wiki/Ultramar",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/1/10/4193_01_CW_%285713543848%29.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:4193_01_CW_(5713543848).jpg\">Inverness County C@P Network Society from Mabou, Nova Scotia, Canada</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Canadian Tire": {
+    "description": "Canadian Tire Corporation, Limited (French: Société Canadian Tire Limitée) is a Canadian retail company which operates in the automotive, hardware, sports, leisure and housewares sectors.",
+    "source": "https://en.wikipedia.org/wiki/Canadian_Tire",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Canadian_Tire_logo_2022.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Canadian_Tire_logo_2022.png\">Sarahforgiect</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "A&W": {
+    "description": "A&W is a fast-food restaurant chain in Canada, franchised by A&W Food Services of Canada, Inc.\n A&W in Canada were initially a subsidiary of U.S. based A&W Restaurants, but in 1995, a Canadian management group made up of A&W franchisees took ownership from Unilever.",
+    "source": "https://en.wikipedia.org/wiki/A%26W_(Canada)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Dollarama_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Dollarama_logo.svg\">Dollarama</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Dollarama": {
+    "description": "Dollarama Inc. is a Canadian dollar store retail chain headquartered in Mount Royal, Quebec.",
+    "source": "https://en.wikipedia.org/wiki/Dollarama",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Dollarama_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Dollarama_logo.svg\">Dollarama</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Shell": {
+    "description": "Shell Canada Limited (French: Shell Canada Limitée) is the principal Canadian subsidiary of British energy major Shell plc.",
+    "source": "https://en.wikipedia.org/wiki/Shell_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Shell_wordmark_2019.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Shell_wordmark_2019.svg\">Royal Dutch Shell</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 2
+  },
+  "Petro-Canada": {
+    "description": "Petro-Canada (colloquially known as Petro-Can) is a retail and wholesale marketing brand subsidiary of Suncor Energy. Suncor Energy is a Calgary-based energy company.",
+    "source": "https://en.wikipedia.org/wiki/Petro-Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Petro-Canada_logo.svg",
+    "imageAttribution": "Petro-Canada, Public domain, via Wikimedia Commons",
+    "canadianness": 3
+  },
+  "Tim Hortons": {
+    "description": "Tim Hortons Inc. is a Toronto-based coffehouse and restaurant chain. It is controversial whether Tim Hortons is completely Canadian, as it is owned by Restaurant Brands International Inc., which is a Toronto based American and Canadian company, with majority shareholders in Brazil.",
+    "source": "https://en.wikipedia.org/wiki/Tim_Hortons",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/be/Tim_Hortons_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Tim_Hortons_Logo.svg\">Tim Hortons</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 2
+  },
+  "American Eagle Outfitters": {
+    "description": "American Eagle Outfitters, Inc. is an American clothing and accessories retailer headquartered at SouthSide Works in Pittsburgh, Pennsylvania.",
+    "source": "https://en.wikipedia.org/wiki/American_Eagle_Outfitters",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/1/18/American_Eagle_Outfitters_wordmark.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:American_Eagle_Outfitters_wordmark.svg\">American Eagle Outfitters</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Applebee's": {
+    "description": "Applebee's Restaurants LLC is an American company that develops, franchises, and operates the Applebee's Neighborhood Grill + Bar restaurant chain.",
+    "source": "https://en.wikipedia.org/wiki/Applebee%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/82/AB_Brand_Refresh_Logo_R.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:AB_Brand_Refresh_Logo_R.png\">Applebees Restaurant LLC</a>, <a href=\"https://creativecommons.org/licenses/by-sa/4.0\">CC BY-SA 4.0</a>, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Arby's": {
+    "description": "Arby's is an American fast-food sandwich restaurant. Its parent company is Inspire Brands, an American fast-food restaurant franchise company.",
+    "source": "https://en.wikipedia.org/wiki/Arby%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Arby%27s_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Arby%27s_logo.svg\">Arby&#039;s</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Banana Republic": {
+    "description": "Banana Republic is an American upscale clothing and accessories retailer owned by Gap Inc.",
+    "source": "https://en.wikipedia.org/wiki/Banana_Republic",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/1/10/Banana_Republic.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Banana_Republic.svg\">The original uploader was Connormah at English Wikipedia.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Baskin-Robbins": {
+    "description": "Baskin-Robbins is an American multinational chain of ice cream and cake specialty shops owned by Inspire Brands.",
+    "source": "https://en.wikipedia.org/wiki/Baskin-Robbins",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/97/Baskin-Robbins_logo_2022.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Baskin-Robbins_logo_2022.svg\">Baskin-Robbins</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Bath & Body Works": {
+    "description": "Bath & Body Works, LLC is an American retail store chain that sells soaps, lotions, fragrances, and candles. It is headquartered in Columbus, Ohio.",
+    "source": "https://en.wikipedia.org/wiki/Bath_%26_Body_Works",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Bath_%26_Body_Works_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Bath_%26_Body_Works_logo.svg\">Bath &amp; Body Works</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Best Buy": {
+    "description": "Best Buy Co., Inc. is an American multinational consumer electronics retailer headquartered in Richfield, Minnesota.",
+    "source": "https://en.wikipedia.org/wiki/Best_Buy_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/f/f5/Best_Buy_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Best_Buy_Logo.svg\">The original uploader was KUsam at English Wikipedia.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Burger King": {
+    "description": "Burger King originated in the U.S. but is now owned by Restaurant Brands International, a Canadian-American fast-food holding company.",
+    "source": "https://en.wikipedia.org/wiki/Burger_King",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/c/cc/Burger_King_2020.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Burger_King_2020.svg\">Burger King</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Carl's Jr.": {
+    "description": "Carl's Jr. Restaurants LLC is an American fast-food restaurant chain owned by CKE Restaurant Holdings, Inc.",
+    "source": "https://en.wikipedia.org/wiki/Carl%27s_Jr.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Carl%27s_Jr_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Carl%27s_Jr_logo.svg\">™/®CKE Restaurants Holdings</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Chevron": {
+    "description": "Chevron Corporation is an American multinational energy corporation predominantly specializing in oil and gas.",
+    "source": "https://en.wikipedia.org/wiki/Chevron_Corporation",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/86/Chevron_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Chevron_Logo.svg\">Chevron Corporation</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Chili's": {
+    "description": "Chili's Grill & Bar (stylized as Chili's) is an American casual dining restaurant chain owned and operated by Brinker International, an American company.",
+    "source": "https://en.wikipedia.org/wiki/Chili%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Chili%27s_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Chili%27s_Logo.svg\">Brinker International</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Chipotle": {
+    "description": "Chipotle Mexican Grill, Inc., often known simply as Chipotle, is an American multinational chain of fast-casual restaurants headquartered in Newport Beach, California.",
+    "source": "https://en.wikipedia.org/wiki/Chipotle_Mexican_Grill",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/6/64/Chipotle_Mexican_Grill_%2814904194989%29.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Chipotle_Mexican_Grill_(14904194989).jpg\">Mike Mozart from Funny YouTube, USA</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Costco": {
+    "description": "Costco Wholesale Corporation is an American multinational corporation that operates a chain of membership-only big-box warehouse club retail stores.",
+    "source": "https://en.wikipedia.org/wiki/Costco_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/5/59/Costco_Wholesale_logo_2010-10-26.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Costco_Wholesale_logo_2010-10-26.svg\">Costco Wholesale</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Crumbl Cookies": {
+    "description": "Crumbl (previously branded as Crumbl Cookies) is a bakery franchise specializing in cookies. It is based in Logan, Utah.",
+    "source": "https://en.wikipedia.org/wiki/Crumbl_Cookies",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/7/72/Crumbl_logo_updated.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Crumbl_logo_updated.svg\">Crumbl, LLC</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Dairy Queen": {
+    "description": "Dairy Queen (also known as DQ) is an American fast-food chain headquartered in Bloomington, Minnesota. It is owned by Berkshire Hathaway, an American investment firm.",
+    "source": "https://en.wikipedia.org/wiki/Dairy_Queen",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Dairy_Queen_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Dairy_Queen_logo.svg\">International Dairy Queen</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Domino's Pizza": {
+    "description": "Domino's Pizza, Inc. is an American pizza restaurant chain headquartered in Ann Arbor Township, Michigan.",
+    "source": "https://en.wikipedia.org/wiki/Domino%27s_Pizza",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3e/Domino%27s_pizza_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Domino%27s_pizza_logo.svg\">Domino&#039;s Pizza</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Esso": {
+    "description": "Esso gas stations in Canada are operated by Imperial Oil Limited, a 69.6% ExxonMobil-owned company. ExxonMobil is an American oil company based in Spring, Texas.",
+    "source": "https://en.wikipedia.org/wiki/Esso_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/2/22/Esso_textlogo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Esso_textlogo.svg\">ExxonMobil</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Five Guys": {
+    "description": "Five Guys Enterprises, LLC is an American fast-food chain headquartered in Alexandria, Virginia.",
+    "source": "https://en.wikipedia.org/wiki/Five_Guys",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/80/Five_Guys_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Five_Guys_logo.svg\">Five GuysSVG conversion by Jbarta</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Foot Locker": {
+    "description": "Foot Locker, Inc. is an American multinational retailer of footwear and sportswear headquartered in Midtown Manhattan, New York City.",
+    "source": "https://en.wikipedia.org/wiki/Foot_Locker",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/a9/Foot_Locker_2020_Wordmark_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Foot_Locker_2020_Wordmark_Logo.svg\">Foot Locker</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "GAP": {
+    "description": "Gap Inc. is an American clothing and accessories retailer. It operates four primary divisions: Gap, Banana Republic, Old Navy, and Athleta. It is headquartered in San Francisco, California.",
+    "source": "https://en.wikipedia.org/wiki/Gap_Inc.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Gap_Inc._logo_2024.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Gap_Inc._logo_2024.svg\">Gap Inc.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "H&R Block": {
+    "description": "H&R Block, Inc. is an American tax preparation company headquartered in Kansas City, Missouri.",
+    "source": "https://en.wikipedia.org/wiki/H%26R_Block",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/a2/HR_Block_logo.png",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:HR_Block_logo.png\">The original uploader was RadicalBender at English Wikipedia.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "The Home Depot": {
+    "description": "The Home Depot is an American home improvement retail corporation headquartered in Cobb County, Georgia.",
+    "source": "https://en.wikipedia.org/wiki/The_Home_Depot_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/5/5f/TheHomeDepot.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:TheHomeDepot.svg\">The original uploader was Alex43223 at English Wikipedia.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "HomeSense": {
+    "description": "HomeSense is a Canadian chain of discount home furnishing stores. It is owned by TJX Companies, an American multinational off-price department store corporation.",
+    "source": "https://en.wikipedia.org/wiki/HomeSense",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/ae/HomeSense_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:HomeSense_Logo.svg\">[1]</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "KFC": {
+    "description": "KFC Corporation is an American fast-food chain owned by Yum! Brands, an American fast-food corporation.",
+    "source": "https://en.wikipedia.org/wiki/KFC",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/1/1e/KFC_logo_wordmark.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:KFC_logo_wordmark.svg\">ISHKFC GmbH</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Levi's": {
+    "description": "Levi Strauss & Co. is an American clothing company widely known for its Levi's brand of denim jeans. It is headquartered in San Francisco, California.",
+    "source": "https://en.wikipedia.org/wiki/Levi%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/0/02/Levi%27s_logo_%282011%29.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Levi%27s_logo_(2011).svg\">Original: Levi Strauss &amp; Co. Vector:  Angelus</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Little Caesars": {
+    "description": "Little Caesar Enterprises Inc. is an American pizza chain headquartered in Detroit, Michigan.",
+    "source": "https://en.wikipedia.org/wiki/Little_Caesars",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/95/Little_Caesars_Pizza_Edmonton_Callingwood_July_2023.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Little_Caesars_Pizza_Edmonton_Callingwood_July_2023.jpg\">Rowanswiki</a>, CC0, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Marshalls": {
+    "description": "Marshalls, Inc. is an American chain of off-price department stores. It is owned by TJX Companies, an American multinational off-price department store corporation.",
+    "source": "https://en.wikipedia.org/wiki/Marshalls_(store)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Marshalls_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Marshalls_Logo.svg\">See page for author</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "McDonald's": {
+    "description": "McDonald's Restaurants of Canada, Limited is a subsidiary of McDonald's Corporation, which operates in the U.S.",
+    "source": "https://en.wikipedia.org/wiki/McDonald%27s_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/36/McDonald%27s_Golden_Arches.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:McDonald%27s_Golden_Arches.svg\">McDonald&#039;s</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Michaels": {
+    "description": "Michaels Stores, Inc. is an American arts and crafts retail chain headquartered in Irving, Texas.",
+    "source": "https://en.wikipedia.org/wiki/Michaels",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/95/Michaels_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Michaels_logo.svg\">Michaels</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Mobil": {
+    "description": "Mobil gas stations in Canada are owned by Brookfield Business Partners, headquartered in Canada. However, they license the Mobil brand from ExxonMobil, an American company.",
+    "source": "https://en.wikipedia.org/wiki/Mobil",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Mobil_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Mobil_logo.svg\">The original uploader was Cheeselouise at English Wikipedia.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Nike": {
+    "description": "Nike, Inc. is an American athletic footwear and apparel corporation headquartered near Beaverton, Oregon.",
+    "source": "https://en.wikipedia.org/wiki/Nike,_Inc.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Logo_NIKE.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Logo_NIKE.svg\">Carolyn Davidson, Nike</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Old Navy": {
+    "description": "Old Navy is an American clothing and accessories retailing company owned by Gap Inc., an American corporation headquartered in San Francisco, California.",
+    "source": "https://en.wikipedia.org/wiki/Old_Navy",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Old_Navy_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Old_Navy_Logo.svg\">Old Navy</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Patagonia": {
+    "description": "Patagonia, Inc. is an American retailer of outdoor recreation clothing headquartered in Ventura, California.",
+    "source": "https://en.wikipedia.org/wiki/Patagonia_(company)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Patagonia_%28Unternehmen%29_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Patagonia_(Unternehmen)_logo.svg\">See page for author</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Pizza Hut": {
+    "description": "Pizza Hut, LLC is a subsidiary of Yum! Brands, Inc., an American fast-food corporation headquartered in Louisville, Kentucky.",
+    "source": "https://en.wikipedia.org/wiki/Pizza_Hut",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/0/06/Pizza_hut_logo_international.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Pizza_hut_logo_international.svg\">Yum! Brands, Inc.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Quiznos": {
+    "description": "Quiznos is owned by Quiz Holdings, LLC, an American company headquartered in Denver, Colorado.",
+    "source": "https://en.wikipedia.org/wiki/Quiznos",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/4/48/Quiznos_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Quiznos_logo.svg\">Quiznos</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Rona": {
+    "description": "RONA Inc. is a Canadian retailer of home improvement and construction products and services, owned by U.S.-based private equity firm Sycamore Partners.",
+    "source": "https://en.wikipedia.org/wiki/Rona_(store)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Rona_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Rona_logo.svg\">Rona Inc.</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Shake Shack": {
+    "description": "Shake Shack is an American fast-casual restaurant chain headquartered in New York City.",
+    "source": "https://en.wikipedia.org/wiki/Shake_Shack",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/9/96/Shake_Shack_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Shake_Shack_logo.svg\">Shake Shack</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Staples": {
+    "description": "Staples Canada ULC is owned by Sycamore Partners, an American private equity firm based in New York City.",
+    "source": "https://en.wikipedia.org/wiki/Staples_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Staples_Canada_2018_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Staples_Canada_2018_logo.svg\">Staples Canada</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Starbucks": {
+    "description": "Starbucks Corporation is an American chain of coffeehouses headquartered in Seattle, Washington.",
+    "source": "https://en.wikipedia.org/wiki/Starbucks",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Starbucks_logo.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Starbucks_logo.jpg\">Marco Paköeningrat</a>, <a href=\"https://creativecommons.org/licenses/by-sa/2.0\">CC BY-SA 2.0</a>, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Subway": {
+    "description": "Subway IP LLC is an American fast-food restaurant franchise.",
+    "source": "https://en.wikipedia.org/wiki/Subway_(restaurant)",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Subway_2016_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Subway_2016_logo.svg\">Subway</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Taco Bell": {
+    "description": "Taco Bell Corp. is an American fast-food chain and subsidiary of Yum! Brands, Inc., an American fast-food corporation.",
+    "source": "https://en.wikipedia.org/wiki/Taco_Bell",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/4/4a/EPSN1229_%282409449218%29.jpg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:EPSN1229_(2409449218).jpg\">Matt Jiggins from Paris, France</a>, <a href=\"https://creativecommons.org/licenses/by/2.0\">CC BY 2.0</a>, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Victoria's Secret": {
+    "description": "Victoria's Secret is an American lingerie, clothing, and beauty retailer headquartered in Reynoldsburg, Ohio.",
+    "source": "https://en.wikipedia.org/wiki/Victoria%27s_Secret",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/7/70/Victoria%27s_Secret_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Victoria%27s_Secret_logo.svg\">Victoria&#039;s Secret</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Walmart": {
+    "description": "Walmart Canada is wholly owned by Walmart Inc., an American retail corporation.",
+    "source": "https://en.wikipedia.org/wiki/Walmart_Canada",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/be/Walmart_Canada_Logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Walmart_Canada_Logo.svg\">WalmartUploaded by Connormah at en.wikipedia</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Wendy's": {
+    "description": "Wendy's is owned by The Wendy's Company, an American fast-food corporation.",
+    "source": "https://en.wikipedia.org/wiki/Wendy%27s",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/6/66/Wendy%27s_logo_2012.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Wendy%27s_logo_2012.svg\">Gindomarlo</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
+  "Winners": {
+    "description": "Winners Merchants International L.P. is a chain of off-price Canadian department stores owned by TJX Companies, an American multinational corporation.",
+    "source": "https://en.wikipedia.org/wiki/Winners",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/3/39/Winners_logo.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Winners_logo.svg\">TJX Companies</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  }
+}

@@ -26,7 +26,7 @@ async function getClusters(
 function MarkerCluster({
   handleMarkerClick,
 }: {
-  handleMarkerClick: (lat: number, lon: number) => void;
+  handleMarkerClick: (shopName: string) => void;
 }) {
   const [markers, setMarkers] = useState<PointFeature<any>[] | []>([]);
   const map = useMapEvent("moveend", () => {
@@ -45,6 +45,7 @@ function MarkerCluster({
     <>
       {markers.map((m: PointFeature<any>) => {
         const [lng, lat] = m.geometry.coordinates;
+        const brandName = m.properties.brand || m.properties.name || "";
         if (m.properties.cluster === true) {
           return (
             <Cluster
@@ -58,6 +59,7 @@ function MarkerCluster({
           return (
             <ShopMarker
               key={`${lat}${lng}`}
+              brandName={brandName}
               lat={lat}
               lng={lng}
               onClick={handleMarkerClick}

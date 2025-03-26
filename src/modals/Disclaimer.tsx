@@ -19,8 +19,8 @@ function Disclaimer({ onClose }: { onClose: () => void }) {
       <p className="mb-4">
         This website is intended{" "}
         <strong className="font-medium">for informational purposes only</strong>
-        . We compile publicly available data about American-affiliated
-        businesses operating in Canada.
+        . We compile publicly available data about businesses operating in
+        Canada.
       </p>
 
       <ul className="list-none pl-0 space-y-4">
