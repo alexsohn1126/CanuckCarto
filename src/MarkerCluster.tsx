@@ -1,5 +1,5 @@
-import { useState } from "react";
-import { useMapEvent } from "react-leaflet";
+import { useEffect, useState } from "react";
+import { useMapEvents } from "react-leaflet";
 import { PointFeature } from "supercluster";
 import ShopMarker from "./ShopMarker";
 import Cluster from "./Cluster";
@@ -23,13 +23,15 @@ async function getClusters(
   setMarkers(resJson);
 }
 
+let didInit = false;
+
 function MarkerCluster({
   handleMarkerClick,
 }: {
   handleMarkerClick: (shopName: string) => void;
 }) {
   const [markers, setMarkers] = useState<PointFeature<any>[] | []>([]);
-  const map = useMapEvent("moveend", () => {
+  const loadData = () => {
     const bound = map.getBounds();
     const zoom = map.getZoom();
     const bbox: [number, number, number, number] = [
@@ -39,6 +41,16 @@ function MarkerCluster({
       bound.getNorth(),
     ];
     getClusters(bbox, zoom, setMarkers);
+  };
+  const map = useMapEvents({
+    moveend: loadData,
+  });
+
+  useEffect(() => {
+    if (!didInit) {
+      didInit = true;
+      loadData();
+    }
   });
 
   return (

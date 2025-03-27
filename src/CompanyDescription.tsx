@@ -31,7 +31,11 @@ function GenericDescription({ currShop }: { currShop: string }) {
       <NoImageFound />
 
       <p className="mt-6">
-        This shop is not in our database, please help us improve the website by{" "}
+        This one is a local business, as far as we can tell...
+      </p>
+
+      <p className="mt-3 text-[10px] text-gray-500">
+        If this is not a local/canadian business, please add an entry by{" "}
         <span>
           <a
             className="cursor-pointer underline"

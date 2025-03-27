@@ -1,3 +1,6 @@
+import { useContext } from "react";
+import { ModalContext } from "./ModalContext";
+
 function WelcomeMessage({
   onClose,
   onPermanentClose,
@@ -5,6 +8,7 @@ function WelcomeMessage({
   onClose: () => void;
   onPermanentClose: () => void;
 }) {
+  const { setActiveModal } = useContext(ModalContext);
   return (
     <>
       <button
@@ -49,8 +53,14 @@ function WelcomeMessage({
       </div>
 
       <p className="text-gray-400 text-xs">
-        This site shares locations of American businesses in Canada. I aim to
-        inform, not endorse or discourage visits. Learn more in the Disclaimer.
+        This site shares locations of businesses in Canada. I aim to inform, not
+        endorse or discourage visits. Learn more in the{" "}
+        <span
+          className="cursor-pointer underline"
+          onClick={() => setActiveModal("disclaimer")}
+        >
+          Disclaimer
+        </span>
       </p>
     </>
   );

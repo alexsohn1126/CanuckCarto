@@ -8,7 +8,7 @@ app.use(express.json());
 const port = 5000;
 
 const cluster = new Supercluster({
-  maxZoom: 17,
+  maxZoom: 16,
   minPoints: 2,
   radius: 100,
 });

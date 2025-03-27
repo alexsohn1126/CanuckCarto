@@ -24,7 +24,7 @@ function App() {
       <div className="w-full relative">
         <MapContainer
           center={[64.2, -96.1]}
-          zoom={4}
+          zoom={3}
           scrollWheelZoom={true}
           className="h-svh"
         >
