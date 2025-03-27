@@ -10,7 +10,7 @@ function Description({ currShop }: { currShop: string }) {
   const currShopDescription: ShopDescription | undefined =
     getShopDescription(currShop);
   return (
-    <div className="p-3 flex flex-col gap-2">
+    <div className="description p-3 flex flex-col gap-2">
       {currShopDescription === undefined ? (
         <GenericDescription currShop={currShop} />
       ) : (
@@ -37,10 +37,7 @@ function GenericDescription({ currShop }: { currShop: string }) {
       <p className="mt-3 text-[10px] text-gray-500">
         If this is not a local/canadian business, please add an entry by{" "}
         <span>
-          <a
-            className="cursor-pointer underline"
-            href="https://github.com/alexsohn1126/CanuckCarto"
-          >
+          <a href="https://github.com/alexsohn1126/CanuckCarto">
             contributing!
           </a>
         </span>
@@ -104,12 +101,7 @@ function CompanyDescription({
       <p className="text-xs text-gray-500">
         Text content adapted from:
         <br />
-        <a
-          className="underline cursor-pointer"
-          href={currShopDescription["source"]}
-        >
-          Source (click here)
-        </a>
+        <a href={currShopDescription["source"]}>Source (click here)</a>
       </p>
     </>
   );
@@ -126,14 +118,13 @@ function HelloDescription() {
       <h3 className="text-3xl mx-auto mt-5 mb-8">CanuckCarto</h3>
       <p>
         Welcome to CanuckCarto! I have compiled a map of various businesses in
-        Canada.
+        Canada. To start, zoom into where you live, and click on the dots to
+        view their details!
       </p>
       <p>
-        I am currently looking for an entry-level software developer position,
-        in Ottawa region, or remote.
-        <br />
-        If you are looking for a software developer, please click the linkedin
-        logo below to contact me!
+        I am currently looking for an entry-level software developer position.
+        If you are interested in working with me, please click the linkedin logo
+        below to contact me!
       </p>
       <p>
         If you like this website, please consider donating by clicking{" "}
@@ -144,7 +135,6 @@ function HelloDescription() {
         this{" "}
         <a
           href="https://github.com/alexsohn1126/CanuckCarto/issues"
-          className="underline"
           target="_blank"
         >
           Github Issue

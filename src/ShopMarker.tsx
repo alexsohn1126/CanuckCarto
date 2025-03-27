@@ -1,6 +1,6 @@
 import { PathOptions } from "leaflet";
 import { memo, useCallback } from "react";
-import { CircleMarker, useMap } from "react-leaflet";
+import { CircleMarker, Tooltip, useMap } from "react-leaflet";
 import { getShopDescription } from "./util";
 
 const greenPathOption: PathOptions = {
@@ -37,7 +37,7 @@ const ShopMarker = memo(function ShopMarker({
   brandName: string;
   lat: number;
   lng: number;
-  onClick: (shopName: string) => void;
+  onClick: (brandName: string) => void;
 }) {
   const map = useMap();
   const handleClick = useCallback(() => {
@@ -51,7 +51,9 @@ const ShopMarker = memo(function ShopMarker({
       center={[lat, lng]}
       pathOptions={chooseColor(brandName)}
       eventHandlers={{ click: handleClick }}
-    />
+    >
+      <Tooltip>{brandName}</Tooltip>
+    </CircleMarker>
   );
 });
 

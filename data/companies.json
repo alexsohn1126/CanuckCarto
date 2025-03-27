@@ -1,4 +1,11 @@
 {
+  "Tesla": {
+    "description": "Tesla, Inc. is an American multinational automotive and clean energy company. Headquartered in Austin, Texas.",
+    "source": "https://en.wikipedia.org/wiki/Tesla,_Inc.",
+    "imageFile": "https://upload.wikimedia.org/wikipedia/commons/b/bd/Tesla_Motors.svg",
+    "imageAttribution": "<a href=\"https://commons.wikimedia.org/wiki/File:Tesla_Motors.svg\">Tesla</a>, Public domain, via Wikimedia Commons",
+    "canadianness": 1
+  },
   "COBS Bread": {
     "description": "COBS Bread is owned by Bakers Delight, an Australian-owned multinational bakery franchise chain. It's franchises are locally owned.",
     "source": "https://en.wikipedia.org/wiki/Bakers_Delight",

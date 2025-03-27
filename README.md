@@ -1,6 +1,9 @@
 # CanuckCarto
 
+Check out the website [here](https://canuckcarto.ca/)
+
 [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X31BROYE)
+[![Discord](public/discord-mark.svg)](https://discord.gg/TTMSuJ8YwZ)
 
 ## Table of Contents
 
@@ -28,19 +31,15 @@ To run this project (assuming you have cloned the repo):
 
 Make sure to `chmod +x *.sh` to allow the scripts to run.
 
-1. (Optional) Run `fetchData.sh`
-
-- If some queries failed, you can retry queries by running `retryQuery.sh`, with the path to `.overpassql` files as arguments (as many as you want)
-
-2. Run `processData.sh`.
-3. Run `npm install` to download all the necesary packages
-4. Run `npm run dev`. Now, you should be able to access `localhost:5173` to access the website.
+1. (Optional) Download and run your own Overpass API instance. Check [OSM wiki on installing and running](https://wiki.openstreetmap.org/wiki/Overpass_API/Installation) Overpass API.
+2. (Optional) Run `fetchData.sh`
+3. (Optional) Run `processData.sh`.
+4. Run `npm install` to download all the necesary packages
+5. Run `npm run dev`. Now, you should be able to access `localhost:5173` to access the website.
 
 This app uses Leaflet along with React. It uses this amazing package called [React Leaflet](https://react-leaflet.js.org/), which provides React components for Leaflet maps.
 
 During the development, I have extensively used [Devenv](https://devenv.sh/) to manage project dependencies and scripts. This should be optional for developing or running this project locally. But just make sure that you have the packages installed in `devenv.nix`, under `packages` (such as `jq`).
-
-I used shell scripts to automatically download and format data from [Overpass API](https://overpass-api.de/). It takes the list of shops in `./data/american_shops.json`, and separates it into chunks of 5 names per query, and we run them parallel so it goes faster. It is currently set to 4 parallel commands at the same time, but if you want to, you can increase it. However, I did encounter a rate limit error when I tried running 5 or more curl commands parallelly.
 
 ## Contributing
 

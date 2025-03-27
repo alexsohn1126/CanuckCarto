@@ -43,6 +43,13 @@ function Info({ currShop }: { currShop: string }) {
             alt="Buy Me a Coffee at ko-fi.com"
           />
         </a>
+        <a href="https://discord.gg/TTMSuJ8YwZ" target="_blank">
+          <img
+            className="h-8 w-8"
+            src="discord-mark.svg"
+            alt="Join the discord!"
+          />
+        </a>
       </div>
     </div>
   );
