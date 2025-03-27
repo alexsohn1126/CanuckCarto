@@ -2,8 +2,7 @@
 
 Check out the website [here](https://canuckcarto.ca/)
 
-[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X31BROYE)
-[![Discord](public/discord-mark.svg)](https://discord.gg/TTMSuJ8YwZ)
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/X8X31BROYE) [<img src="public/discord-mark.svg" width="50" />](https://discord.gg/TTMSuJ8YwZ)
 
 ## Table of Contents
 
