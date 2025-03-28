@@ -35,6 +35,8 @@
   languages.typescript.enable = true;
   languages.javascript.npm.enable = true;
 
+  languages.go.enable = true;
+
   # https://devenv.sh/pre-commit-hooks/
   # pre-commit.hooks.shellcheck.enable = true;
 
